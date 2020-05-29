@@ -13,7 +13,7 @@ import org.hibernate.Transaction;
 
 /**
  *
- * @author Rodrigo
+ * @author daniela
  */
 public class Login extends ActionSupport{
     public static final String ADMINISTRADOR = "administrador";
