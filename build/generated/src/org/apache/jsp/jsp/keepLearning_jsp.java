@@ -4,7 +4,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
-public final class student_jsp extends org.apache.jasper.runtime.HttpJspBase
+public final class keepLearning_jsp extends org.apache.jasper.runtime.HttpJspBase
     implements org.apache.jasper.runtime.JspSourceDependent {
 
   private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
@@ -69,7 +69,7 @@ public final class student_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<html>\r\n");
       out.write("\t<!-- Head  -->\r\n");
       out.write("\t<head>\r\n");
-      out.write("\t\t<title>SAALSM - Estudiante</title>\r\n");
+      out.write("\t\t<title>SAALSM - Continuar Aprendiendo</title>\r\n");
       out.write("\t\t<style>\r\n");
       out.write("\t\t\t.bd-placeholder-img{\r\n");
       out.write("\t\t\tfont-size: 1.125rem;\r\n");
@@ -180,12 +180,12 @@ public final class student_jsp extends org.apache.jasper.runtime.HttpJspBase
         out.write("                                                </a>\r\n");
         out.write("\t\t\t\t\t</li>\r\n");
         out.write("\t\t\t\t\t<li>\r\n");
-        out.write("\t\t\t\t\t\t<a href=\"myInfoStudent.jsp\" role=\"button\">\r\n");
+        out.write("\t\t\t\t\t\t<a href=\"myInfo.jsp\" role=\"button\">\r\n");
         out.write("                                                    <i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta\r\n");
         out.write("                                                </a>\r\n");
         out.write("\t\t\t\t\t</li>\r\n");
         out.write("\t\t\t\t\t<li>\r\n");
-        out.write("\t\t\t\t\t\t<a href=\"keepLearning.jsp\" role=\"button\">\r\n");
+        out.write("\t\t\t\t\t\t<a href=\"#\" role=\"button\">\r\n");
         out.write("                                                    <i class=\"material-icons fa fa-american-sign-language-interpreting\"></i>  Continuar aprendiendo\r\n");
         out.write("                                                </a>\r\n");
         out.write("\t\t\t\t\t</li>\r\n");
@@ -402,7 +402,7 @@ public final class student_jsp extends org.apache.jasper.runtime.HttpJspBase
         out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"student.jsp\" role=\"button\"><i class=\"material-icons fa fa-home\"></i>  Inicio</a>\r\n");
         out.write("\t\t\t\t\t\t\t\t</li>\r\n");
         out.write("\t\t\t\t\t\t\t\t<li class=\"nav-item\">\r\n");
-        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"myInfoStudent.jsp\" role=\"button\"><i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta</a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"myInfo.jsp\" role=\"button\"><i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta</a>\r\n");
         out.write("\t\t\t\t\t\t\t\t</li>\r\n");
         out.write("\t\t\t\t\t\t\t\t<li>\r\n");
         out.write("\t\t\t\t\t\t\t\t\t<a href=\"sessionClosed.jsp\" class=\"btn nav-link\" href=\"#\" role=\"button\"><i class=\"material-icons fa fa-power-off\"></i>  Cerrar sesión</a>\r\n");
@@ -569,6 +569,26 @@ public final class student_jsp extends org.apache.jasper.runtime.HttpJspBase
         if (_jspx_meth_s_div_13((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_10, _jspx_page_context))
           return true;
         out.write("\r\n");
+        out.write("\t\t\t\t\t\t");
+        if (_jspx_meth_s_div_14((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_10, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t");
+        if (_jspx_meth_s_div_15((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_10, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t");
+        if (_jspx_meth_s_div_16((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_10, _jspx_page_context))
+          return true;
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t");
+        if (_jspx_meth_s_div_17((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_10, _jspx_page_context))
+          return true;
+        out.write("   \r\n");
+        out.write("\t\t\t\t\t\t");
+        if (_jspx_meth_s_div_18((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_10, _jspx_page_context))
+          return true;
+        out.write("\r\n");
         out.write("\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_10.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -604,17 +624,15 @@ public final class student_jsp extends org.apache.jasper.runtime.HttpJspBase
       do {
         out.write("\r\n");
         out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
-        out.write("\t\t\t\t\t\t\t\t<title>Continuar aprendiendo</title>\r\n");
-        out.write("                                                            <div style=\"text-align: center;\">\r\n");
-        out.write("                                                                <img src=\"../img/signs/c.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/c.png';\" onmouseover=\"this.src='../img/keepLearning.gif';\" align=\"center\"/>\r\n");
-        out.write("                                                            </div>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Abecedario</title>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/a.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/a.png';\" onmouseover=\"this.src='../img/abc.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
         out.write("\t\t\t\t\t\t\t</svg>\r\n");
-        out.write("\t\t\t\t\t\t\t<h2>Continuar aprendiendo</h2>\r\n");
-        out.write("\t\t\t\t\t\t\t<p>Aquí puedes continuar aprendiendo el Lenguaje de Señas Mexicano</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Abecedario</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Aprenderás las letras del abecedario en la LSM</p>\r\n");
         out.write("\t\t\t\t\t\t\t<p>\r\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"keepLearning.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-secondary\" href=\"#\" role=\"button\"><i class=\"material-icons md-inactive\">check</i></a>\r\n");
-        out.write("\t\t\t\t\t\t\t</p>\r\n");
+        out.write("                                                            <a class=\"btn btn-primary\" href=\"niveles/alphabet.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
         out.write("\t\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_11.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -650,16 +668,15 @@ public final class student_jsp extends org.apache.jasper.runtime.HttpJspBase
       do {
         out.write("\r\n");
         out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
-        out.write("                                                            <title>Mi progreso</title>\r\n");
-        out.write("                                                            <div style=\"text-align: center;\">\r\n");
-        out.write("                                                                <img src=\"../img/signs/p.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/p.png';\" onmouseover=\"this.src='../img/myProgress.gif';\" align=\"center\"/>\r\n");
-        out.write("                                                            </div>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Números</title>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/n.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/n.png';\" onmouseover=\"this.src='../img/numbers.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
         out.write("\t\t\t\t\t\t\t</svg>\r\n");
-        out.write("\t\t\t\t\t\t\t<h2>Mi progreso</h2>\r\n");
-        out.write("\t\t\t\t\t\t\t<p>Aquí puedes ver tu avance de aprendizaje</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Números</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Aprenderás los números naturales y ordinales en la LSM</p>\r\n");
         out.write("\t\t\t\t\t\t\t<p>\r\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"myProgress.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-secondary\" href=\"#\" role=\"button\"><i class=\"material-icons md-inactive\">check</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"#\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
         out.write("\t\t\t\t\t\t\t</p>\r\n");
         out.write("\t\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_12.doAfterBody();
@@ -695,17 +712,16 @@ public final class student_jsp extends org.apache.jasper.runtime.HttpJspBase
       }
       do {
         out.write("\r\n");
-        out.write("\t\t\t\t\t\t\t<svg  class=\"rounded-circle static\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
-        out.write("\t\t\t\t\t\t\t\t<title>Mi grupo</title>\r\n");
-        out.write("                                                            <div style=\"text-align: center;\">\r\n");
-        out.write("                                                                <img src=\"../img/signs/g.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/g.png';\" onmouseover=\"this.src='../img/myGroup.gif';\" align=\"center\"/>\r\n");
-        out.write("                                                            </div>\r\n");
+        out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Colores</title>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/c.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/c.png';\" onmouseover=\"this.src='../img/colors.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
         out.write("\t\t\t\t\t\t\t</svg>\r\n");
-        out.write("\t\t\t\t\t\t\t<h2>Mi grupo</h2>\r\n");
-        out.write("\t\t\t\t\t\t\t<p>Aquí puedes ver la información de tu grupo</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Colores</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Nivel donde aprenderás los colores en la LSM</p>\r\n");
         out.write("\t\t\t\t\t\t\t<p>\r\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"myGroup.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-secondary\" href=\"#\" role=\"button\"><i class=\"material-icons md-inactive\">check</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"#\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
         out.write("\t\t\t\t\t\t\t</p>\r\n");
         out.write("\t\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_13.doAfterBody();
@@ -720,6 +736,231 @@ public final class student_jsp extends org.apache.jasper.runtime.HttpJspBase
       return true;
     }
     _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_13);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_div_14(javax.servlet.jsp.tagext.JspTag _jspx_th_s_div_10, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:div
+    org.apache.struts2.views.jsp.ui.DivTag _jspx_th_s_div_14 = (org.apache.struts2.views.jsp.ui.DivTag) _jspx_tagPool_s_div_cssClass.get(org.apache.struts2.views.jsp.ui.DivTag.class);
+    _jspx_th_s_div_14.setPageContext(_jspx_page_context);
+    _jspx_th_s_div_14.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_div_10);
+    _jspx_th_s_div_14.setCssClass("col-lg-4 text-center");
+    int _jspx_eval_s_div_14 = _jspx_th_s_div_14.doStartTag();
+    if (_jspx_eval_s_div_14 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_s_div_14 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_s_div_14.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_s_div_14.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Alimentos</title>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/a.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/a.png';\" onmouseover=\"this.src='../img/food.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
+        out.write("\t\t\t\t\t\t\t</svg>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Alimentos</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Aprenderás alimentos y bebidas en la LSM</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"#\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t</p>\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_s_div_14.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_s_div_14 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE)
+        out = _jspx_page_context.popBody();
+    }
+    if (_jspx_th_s_div_14.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_14);
+      return true;
+    }
+    _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_14);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_div_15(javax.servlet.jsp.tagext.JspTag _jspx_th_s_div_10, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:div
+    org.apache.struts2.views.jsp.ui.DivTag _jspx_th_s_div_15 = (org.apache.struts2.views.jsp.ui.DivTag) _jspx_tagPool_s_div_cssClass.get(org.apache.struts2.views.jsp.ui.DivTag.class);
+    _jspx_th_s_div_15.setPageContext(_jspx_page_context);
+    _jspx_th_s_div_15.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_div_10);
+    _jspx_th_s_div_15.setCssClass("col-lg-4 text-center");
+    int _jspx_eval_s_div_15 = _jspx_th_s_div_15.doStartTag();
+    if (_jspx_eval_s_div_15 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_s_div_15 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_s_div_15.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_s_div_15.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Familia</title>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/f.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/f.png';\" onmouseover=\"this.src='../img/family.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
+        out.write("\t\t\t\t\t\t\t</svg>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Familia</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Aprenderás a llamar a los miembros de tu familia en la LSM</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"#\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t</p>\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_s_div_15.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_s_div_15 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE)
+        out = _jspx_page_context.popBody();
+    }
+    if (_jspx_th_s_div_15.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_15);
+      return true;
+    }
+    _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_15);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_div_16(javax.servlet.jsp.tagext.JspTag _jspx_th_s_div_10, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:div
+    org.apache.struts2.views.jsp.ui.DivTag _jspx_th_s_div_16 = (org.apache.struts2.views.jsp.ui.DivTag) _jspx_tagPool_s_div_cssClass.get(org.apache.struts2.views.jsp.ui.DivTag.class);
+    _jspx_th_s_div_16.setPageContext(_jspx_page_context);
+    _jspx_th_s_div_16.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_div_10);
+    _jspx_th_s_div_16.setCssClass("col-lg-4 text-center");
+    int _jspx_eval_s_div_16 = _jspx_th_s_div_16.doStartTag();
+    if (_jspx_eval_s_div_16 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_s_div_16 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_s_div_16.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_s_div_16.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Animales</title>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/a.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/a.png';\" onmouseover=\"this.src='../img/animals.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
+        out.write("\t\t\t\t\t\t\t</svg>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Animales</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Aprenderás señas relacionadas a animales en la LSM</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"#\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t</p>\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_s_div_16.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_s_div_16 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE)
+        out = _jspx_page_context.popBody();
+    }
+    if (_jspx_th_s_div_16.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_16);
+      return true;
+    }
+    _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_16);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_div_17(javax.servlet.jsp.tagext.JspTag _jspx_th_s_div_10, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:div
+    org.apache.struts2.views.jsp.ui.DivTag _jspx_th_s_div_17 = (org.apache.struts2.views.jsp.ui.DivTag) _jspx_tagPool_s_div_cssClass.get(org.apache.struts2.views.jsp.ui.DivTag.class);
+    _jspx_th_s_div_17.setPageContext(_jspx_page_context);
+    _jspx_th_s_div_17.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_div_10);
+    _jspx_th_s_div_17.setCssClass("col-lg-4 text-center");
+    int _jspx_eval_s_div_17 = _jspx_th_s_div_17.doStartTag();
+    if (_jspx_eval_s_div_17 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_s_div_17 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_s_div_17.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_s_div_17.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Cuerpo humano</title>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/h.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/h.png';\" onmouseover=\"this.src='../img/humanBody.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
+        out.write("\t\t\t\t\t\t\t</svg>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Cuerpo humano</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Aprenderás a decir las partes del cuerpo en la LSM</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"myProgress.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t</p>\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_s_div_17.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_s_div_17 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE)
+        out = _jspx_page_context.popBody();
+    }
+    if (_jspx_th_s_div_17.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_17);
+      return true;
+    }
+    _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_17);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_div_18(javax.servlet.jsp.tagext.JspTag _jspx_th_s_div_10, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:div
+    org.apache.struts2.views.jsp.ui.DivTag _jspx_th_s_div_18 = (org.apache.struts2.views.jsp.ui.DivTag) _jspx_tagPool_s_div_cssClass.get(org.apache.struts2.views.jsp.ui.DivTag.class);
+    _jspx_th_s_div_18.setPageContext(_jspx_page_context);
+    _jspx_th_s_div_18.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_div_10);
+    _jspx_th_s_div_18.setCssClass("col-lg-4 text-center");
+    int _jspx_eval_s_div_18 = _jspx_th_s_div_18.doStartTag();
+    if (_jspx_eval_s_div_18 != javax.servlet.jsp.tagext.Tag.SKIP_BODY) {
+      if (_jspx_eval_s_div_18 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE) {
+        out = _jspx_page_context.pushBody();
+        _jspx_th_s_div_18.setBodyContent((javax.servlet.jsp.tagext.BodyContent) out);
+        _jspx_th_s_div_18.doInitBody();
+      }
+      do {
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<svg  class=\"rounded-circle static\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>República Mexicana</title>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/m.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/m.png';\" onmouseover=\"this.src='../img/mexicanRepublic.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
+        out.write("\t\t\t\t\t\t\t</svg>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>República Mexicana</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Aquí las señas con los nombres de diferentes Estados de México en la LSM</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"myGroup.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t</p>\r\n");
+        out.write("\t\t\t\t\t\t");
+        int evalDoAfterBody = _jspx_th_s_div_18.doAfterBody();
+        if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
+          break;
+      } while (true);
+      if (_jspx_eval_s_div_18 != javax.servlet.jsp.tagext.Tag.EVAL_BODY_INCLUDE)
+        out = _jspx_page_context.popBody();
+    }
+    if (_jspx_th_s_div_18.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_18);
+      return true;
+    }
+    _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_18);
     return false;
   }
 }

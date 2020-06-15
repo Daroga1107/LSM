@@ -12,7 +12,7 @@
 <html>
 	<!-- Head  -->
 	<head>
-		<title>SAALSM - Mi cuentaa</title>
+		<title>SAALSM - Mi cuenta</title>
 		<link href="../css/signin.css" rel="stylesheet">
 		<style>
 			.bd-placeholder-img{
