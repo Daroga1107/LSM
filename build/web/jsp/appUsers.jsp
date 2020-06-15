@@ -131,7 +131,7 @@
 				<div align="center">
 			<%                
 				ResultSet rs=null;
-				manejador.setConnection("com.mysql.jdbc.Driver","jdbc:mysql://localhost:3306/LSM");
+				manejador.setConnection("com.mysql.jdbc.Driver","jdbc:mysql://localhost:3307/LSM");
 				rs=manejador.executeQuery("SELECT * FROM user");
 				out.println("<table class=\"table\"><tr><th scope=\"col\">#</th><th scope=\"col\">Nombre</h><th scope=\"col\">Contraseña</th><th scope=\"col\">Tipo</th><th scope=\"col\" colspan=\"2\" colspan=\"text-align: center\">Acciones</th>");
 				while(rs.next()){
