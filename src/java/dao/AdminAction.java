@@ -27,7 +27,7 @@ public class AdminAction {
 
     
     
-    public AdminAction() {
+    public AdminAction()  {
     }
     
     public String execute() throws Exception {
@@ -37,7 +37,6 @@ public class AdminAction {
     public String getRegisteredUsers(){
         UserDao dao = new UserDao();
         this.currentUsers = dao.getAllUsers();
-        return SUCCESS;
-    }
-    
+        return SUCCESS; 
+    }    
 }
