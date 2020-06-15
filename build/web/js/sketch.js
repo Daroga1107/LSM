@@ -1,6 +1,8 @@
-let mobilenet;
-let video;
-let label ='';
+
+
+mobilenet;
+video;
+label ='';
 
 
 function modelReady() {
@@ -14,7 +16,7 @@ function gotResults(error, results) {
 	}else{
 		//console.log(results);
 		label = results[0].label;
-		let prob = results[0].confidence;
+		prob = results[0].confidence;
 		mobilenet.predict(gotResults);
 	}
 	

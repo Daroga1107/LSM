@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 18/03/2020 02:58:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entity.Course" table="course" catalog="lsm" optimistic-lock="version">
+        <id name="idCourse" type="int">
+            <column name="idCourse" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="group" class="entity.Group" fetch="select">
+            <column name="Group_idGroup" not-null="true" />
+        </many-to-one>
+        <property name="courseName" type="string">
+            <column name="courseName" length="45" />
+        </property>
+        <property name="maxStudents" type="string">
+            <column name="maxStudents" length="45" />
+        </property>
+        <set name="handsigns" table="handsign" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="Course_idCourse" not-null="true" />
+            </key>
+            <one-to-many class="entity.Handsign" />
+        </set>
+    </class>
+</hibernate-mapping>

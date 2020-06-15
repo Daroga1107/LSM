@@ -21,7 +21,7 @@ p {
 a,
 a:hover,
 a:focus {
-    color: inherit;
+    color: #000;
     text-decoration: none;
     transition: all 0.3s;
 }
@@ -64,8 +64,8 @@ a:focus {
     left: 0;
     height: 100vh;
     z-index: 999;
-    background: #50C5B7;
-    color: #fff;
+    background: #F6A51F;
+    color: #000;
     transition: all 0.3s;
 }
 
@@ -74,8 +74,8 @@ a:focus {
 }
 
 #sidebar .sidebar-header {
-    padding: 20px;
-    background: #50C5B7;
+    padding: 40px;
+    background: #F6A51F;
 }
 
 #sidebar ul.components {
@@ -95,14 +95,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
+    color: rgba(0, 0, 0, .5);
+    background: #F6A51F;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #50C5B7;
+    background: #F6A51F;
 }
 
 a[data-toggle="collapse"] {

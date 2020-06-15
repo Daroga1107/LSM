@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 18/03/2020 02:58:50 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entity.Handsign" table="handsign" catalog="lsm" optimistic-lock="version">
+        <id name="idHandsign" type="int">
+            <column name="idHandsign" />
+            <generator class="assigned" />
+        </id>
+        <many-to-one name="course" class="entity.Course" fetch="select">
+            <column name="Course_idCourse" not-null="true" />
+        </many-to-one>
+        <property name="handSignRawData" type="string">
+            <column name="handSignRawData" length="40" />
+        </property>
+        <property name="handSignName" type="string">
+            <column name="handSignName" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>
