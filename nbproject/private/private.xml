@@ -2,10 +2,19 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
+        <group/>
+=======
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/EDUARDO/Desktop/LSMM/web/jsp/keepLearning.jsp</file>
             <file>file:/C:/Users/EDUARDO/Desktop/LSMM/web/css/bootstrap.css</file>
             <file>file:/C:/Users/EDUARDO/Desktop/LSMM/src/java/hibernate.cfg.xml</file>
+=======
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/src/java/dao/AdminAction.java</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/admin.jsp</file>
+>>>>>>> 31fa788899b92980ac8b0a9147d8f0a34650e86f
         </group>
+>>>>>>> cbe5054854d92fa66545b1e002dacaad10c558a8
     </open-files>
 </project-private>
