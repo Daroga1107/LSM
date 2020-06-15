@@ -61,50 +61,50 @@ public final class appUsers_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n");
-      out.write("\t\"http://www.w3.org/TR/html4/loose.dtd\">\n");
-      out.write("<!doctype html>\n");
-      out.write("<html>\n");
-      out.write("\t<!-- Head  -->\n");
-      out.write("\t<head>\n");
-      out.write("\t\t<title>SAALSM - Usuarios</title>\n");
-      out.write("\t\t<style>\n");
-      out.write("\t\t\t.bd-placeholder-img{\n");
-      out.write("\t\t\tfont-size: 1.125rem;\n");
-      out.write("\t\t\ttext-anchor: middle ;\n");
-      out.write("\t\t\t-webkit-user-select: none;\n");
-      out.write("\t\t\t-moz-user-select: none;\n");
-      out.write("\t\t\t-ms-user-select: none;\n");
-      out.write("\t\t\tuser-select: none;\n");
-      out.write("\t\t\t}\n");
-      out.write("\t\t\t@media (min-width: 768px){\n");
-      out.write("\t\t\t.bd-placeholder-img-lg{\n");
-      out.write("\t\t\tfont-size: 3.5rem;\n");
-      out.write("\t\t\t}                \n");
-      out.write("\t\t\t}\n");
-      out.write("\t\t</style>\n");
-      out.write("\t\t<meta charset=\"utf-8\">\n");
-      out.write("\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n");
-      out.write("\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n");
-      out.write("\t\t<title>Collapsible sidebar using Bootstrap 4</title>\n");
-      out.write("\t\t<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n");
-      out.write("\t\t<!-- Bootstrap CSS CDN -->\n");
-      out.write("\t\t<link rel=\"stylesheet\" href=\"../css/bootstrap.min.css\">\n");
-      out.write("\t\t<!-- Our Custom CSS --> \n");
-      out.write("\t\t<link rel=\"stylesheet\" href=\"../css/style2.css\">\n");
-      out.write("\t\t<!-- Scrollbar Custom CSS -->\n");
-      out.write("\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css\">\n");
-      out.write("\t\t<!-- Font Awesome JS -->\n");
-      out.write("\t\t<script defer src=\"https://use.fontawesome.com/releases/v5.0.13/js/solid.js\" integrity=\"sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t\t<script defer src=\"https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js\" integrity=\"sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t</head>\n");
-      out.write("\t<!-- Head  -->\n");
-      out.write("\t<body>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\r\n");
+      out.write("\t\"http://www.w3.org/TR/html4/loose.dtd\">\r\n");
+      out.write("<!doctype html>\r\n");
+      out.write("<html>\r\n");
+      out.write("\t<!-- Head  -->\r\n");
+      out.write("\t<head>\r\n");
+      out.write("\t\t<title>SAALSM - Usuarios</title>\r\n");
+      out.write("\t\t<style>\r\n");
+      out.write("\t\t\t.bd-placeholder-img{\r\n");
+      out.write("\t\t\tfont-size: 1.125rem;\r\n");
+      out.write("\t\t\ttext-anchor: middle ;\r\n");
+      out.write("\t\t\t-webkit-user-select: none;\r\n");
+      out.write("\t\t\t-moz-user-select: none;\r\n");
+      out.write("\t\t\t-ms-user-select: none;\r\n");
+      out.write("\t\t\tuser-select: none;\r\n");
+      out.write("\t\t\t}\r\n");
+      out.write("\t\t\t@media (min-width: 768px){\r\n");
+      out.write("\t\t\t.bd-placeholder-img-lg{\r\n");
+      out.write("\t\t\tfont-size: 3.5rem;\r\n");
+      out.write("\t\t\t}                \r\n");
+      out.write("\t\t\t}\r\n");
+      out.write("\t\t</style>\r\n");
+      out.write("\t\t<meta charset=\"utf-8\">\r\n");
+      out.write("\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n");
+      out.write("\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n");
+      out.write("\t\t<title>Collapsible sidebar using Bootstrap 4</title>\r\n");
+      out.write("\t\t<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\r\n");
+      out.write("\t\t<!-- Bootstrap CSS CDN -->\r\n");
+      out.write("\t\t<link rel=\"stylesheet\" href=\"../css/bootstrap.min.css\">\r\n");
+      out.write("\t\t<!-- Our Custom CSS --> \r\n");
+      out.write("\t\t<link rel=\"stylesheet\" href=\"../css/style2.css\">\r\n");
+      out.write("\t\t<!-- Scrollbar Custom CSS -->\r\n");
+      out.write("\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css\">\r\n");
+      out.write("\t\t<!-- Font Awesome JS -->\r\n");
+      out.write("\t\t<script defer src=\"https://use.fontawesome.com/releases/v5.0.13/js/solid.js\" integrity=\"sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\t\t<script defer src=\"https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js\" integrity=\"sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\t</head>\r\n");
+      out.write("\t<!-- Head  -->\r\n");
+      out.write("\t<body>\r\n");
       out.write("            ");
       beanDB.DB manejador = null;
       synchronized (session) {
@@ -114,7 +114,7 @@ public final class appUsers_jsp extends org.apache.jasper.runtime.HttpJspBase
           _jspx_page_context.setAttribute("manejador", manejador, PageContext.SESSION_SCOPE);
         }
       }
-      out.write("\n");
+      out.write("\r\n");
       out.write("\t\t");
       //  s:div
       org.apache.struts2.views.jsp.ui.DivTag _jspx_th_s_div_0 = (org.apache.struts2.views.jsp.ui.DivTag) _jspx_tagPool_s_div_cssClass.get(org.apache.struts2.views.jsp.ui.DivTag.class);
@@ -129,63 +129,63 @@ public final class appUsers_jsp extends org.apache.jasper.runtime.HttpJspBase
           _jspx_th_s_div_0.doInitBody();
         }
         do {
-          out.write("\n");
-          out.write("\t\t\t<!-- Barra lateral  -->\n");
-          out.write("\t\t\t<nav id=\"sidebar\">\n");
+          out.write("\r\n");
+          out.write("\t\t\t<!-- Barra lateral  -->\r\n");
+          out.write("\t\t\t<nav id=\"sidebar\">\r\n");
           out.write("\t\t\t\t");
           if (_jspx_meth_s_div_1((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_0, _jspx_page_context))
             return;
-          out.write("\n");
+          out.write("\r\n");
           out.write("\t\t\t\t");
           if (_jspx_meth_s_div_2((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_0, _jspx_page_context))
             return;
-          out.write("\n");
+          out.write("\r\n");
           out.write("\t\t\t\t");
           if (_jspx_meth_s_div_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_0, _jspx_page_context))
             return;
-          out.write("\n");
-          out.write("\t\t\t\t<ul class=\"list-unstyled CTAs\">\n");
-          out.write("\t\t\t\t\t<li>\n");
-          out.write("\t\t\t\t\t\t<a href=\"admin.jsp\" role=\"button\">\n");
-          out.write("                                                    <i class=\"material-icons fa fa-home\"></i>  Inicio\n");
-          out.write("                                                </a>\n");
-          out.write("\t\t\t\t\t</li>\n");
-          out.write("\t\t\t\t\t<li>\n");
-          out.write("\t\t\t\t\t\t<a href=\"myInfo.jsp\" role=\"button\">\n");
-          out.write("                                                    <i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta\n");
-          out.write("                                                </a>\n");
-          out.write("\t\t\t\t\t</li>\n");
-          out.write("\t\t\t\t\t<li>\n");
-          out.write("\t\t\t\t\t\t<a href=\"validateUser.jsp\" role=\"button\">\n");
-          out.write("                                                    <i class=\"material-icons fa fa-users\"></i>  Validar usuarios\n");
-          out.write("                                                </a>\n");
-          out.write("\t\t\t\t\t</li>\n");
-          out.write("\t\t\t\t\t<li>\n");
-          out.write("\t\t\t\t\t\t<a href=\"addUser.jsp\" role=\"button\">\n");
-          out.write("                                                    <i class=\"material-icons fa fa-user-plus\"></i>  Agregar usuario\n");
-          out.write("                                                </a>\n");
-          out.write("\t\t\t\t\t</li>\n");
-          out.write("\t\t\t\t\t<li>\n");
-          out.write("\t\t\t\t\t\t<a href=\"appUsers.jsp\" role=\"button\">\n");
-          out.write("                                                    <i class=\"material-icons fa fa-user\"></i>  Ver usuarios\n");
-          out.write("                                                </a>\n");
-          out.write("\t\t\t\t\t</li>\n");
-          out.write("\t\t\t\t\t<br>\n");
-          out.write("\t\t\t\t\t<li>\n");
-          out.write("\t\t\t\t\t\t<a href=\"sessionClosed.jsp\" role=\"button\">\n");
-          out.write("                                                    <i class=\"material-icons fa fa-power-off\"></i>  Cerrar sesión\n");
-          out.write("                                                </a>\n");
-          out.write("\t\t\t\t\t</li>\n");
-          out.write("\t\t\t\t</ul>\n");
-          out.write("\t\t\t</nav>\n");
-          out.write("\t\t\t<!-- Barra lateral  -->\n");
-          out.write("\t\t\t<!-- Menu superior  -->\n");
+          out.write("\r\n");
+          out.write("\t\t\t\t<ul class=\"list-unstyled CTAs\">\r\n");
+          out.write("\t\t\t\t\t<li>\r\n");
+          out.write("\t\t\t\t\t\t<a href=\"admin.jsp\" role=\"button\">\r\n");
+          out.write("                                                    <i class=\"material-icons fa fa-home\"></i>  Inicio\r\n");
+          out.write("                                                </a>\r\n");
+          out.write("\t\t\t\t\t</li>\r\n");
+          out.write("\t\t\t\t\t<li>\r\n");
+          out.write("\t\t\t\t\t\t<a href=\"myInfo.jsp\" role=\"button\">\r\n");
+          out.write("                                                    <i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta\r\n");
+          out.write("                                                </a>\r\n");
+          out.write("\t\t\t\t\t</li>\r\n");
+          out.write("\t\t\t\t\t<li>\r\n");
+          out.write("\t\t\t\t\t\t<a href=\"validateUser.jsp\" role=\"button\">\r\n");
+          out.write("                                                    <i class=\"material-icons fa fa-users\"></i>  Validar usuarios\r\n");
+          out.write("                                                </a>\r\n");
+          out.write("\t\t\t\t\t</li>\r\n");
+          out.write("\t\t\t\t\t<li>\r\n");
+          out.write("\t\t\t\t\t\t<a href=\"addUser.jsp\" role=\"button\">\r\n");
+          out.write("                                                    <i class=\"material-icons fa fa-user-plus\"></i>  Agregar usuario\r\n");
+          out.write("                                                </a>\r\n");
+          out.write("\t\t\t\t\t</li>\r\n");
+          out.write("\t\t\t\t\t<li>\r\n");
+          out.write("\t\t\t\t\t\t<a href=\"appUsers.jsp\" role=\"button\">\r\n");
+          out.write("                                                    <i class=\"material-icons fa fa-user\"></i>  Ver usuarios\r\n");
+          out.write("                                                </a>\r\n");
+          out.write("\t\t\t\t\t</li>\r\n");
+          out.write("\t\t\t\t\t<br>\r\n");
+          out.write("\t\t\t\t\t<li>\r\n");
+          out.write("\t\t\t\t\t\t<a href=\"sessionClosed.jsp\" role=\"button\">\r\n");
+          out.write("                                                    <i class=\"material-icons fa fa-power-off\"></i>  Cerrar sesión\r\n");
+          out.write("                                                </a>\r\n");
+          out.write("\t\t\t\t\t</li>\r\n");
+          out.write("\t\t\t\t</ul>\r\n");
+          out.write("\t\t\t</nav>\r\n");
+          out.write("\t\t\t<!-- Barra lateral  -->\r\n");
+          out.write("\t\t\t<!-- Menu superior  -->\r\n");
           out.write("\t\t\t");
           if (_jspx_meth_s_div_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_0, _jspx_page_context))
             return;
-          out.write("\n");
-          out.write("\t\t\t<!-- Menu superior  -->\n");
-          out.write("\t\t\t<!-- Contenido  -->\n");
+          out.write("\r\n");
+          out.write("\t\t\t<!-- Menu superior  -->\r\n");
+          out.write("\t\t\t<!-- Contenido  -->\r\n");
           out.write("\t\t\t");
           //  s:div
           org.apache.struts2.views.jsp.ui.DivTag _jspx_th_s_div_7 = (org.apache.struts2.views.jsp.ui.DivTag) _jspx_tagPool_s_div_id.get(org.apache.struts2.views.jsp.ui.DivTag.class);
@@ -200,36 +200,36 @@ public final class appUsers_jsp extends org.apache.jasper.runtime.HttpJspBase
               _jspx_th_s_div_7.doInitBody();
             }
             do {
-              out.write("\n");
-              out.write("\t\t\t\t<br>\n");
-              out.write("\t\t\t\t<br>\n");
-              out.write("\t\t\t\t<br>\n");
-              out.write("\t\t\t\t<!-- Carrusel  -->\n");
-              out.write("\t\t\t\t<!-- Carrusel  -->\n");
-              out.write("\t\t\t\t<!-- Contenedores  -->\n");
-              out.write("\t\t\t\t<div align=\"center\">\n");
+              out.write("\r\n");
+              out.write("\t\t\t\t<br>\r\n");
+              out.write("\t\t\t\t<br>\r\n");
+              out.write("\t\t\t\t<br>\r\n");
+              out.write("\t\t\t\t<!-- Carrusel  -->\r\n");
+              out.write("\t\t\t\t<!-- Carrusel  -->\r\n");
+              out.write("\t\t\t\t<!-- Contenedores  -->\r\n");
+              out.write("\t\t\t\t<div align=\"center\">\r\n");
               out.write("\t\t\t");
                 
 				ResultSet rs=null;
 				manejador.setConnection("com.mysql.jdbc.Driver","jdbc:mysql://localhost/LSM");
 				rs=manejador.executeQuery("SELECT * FROM user");
-				out.println("<table class=\"table\"><tr><th scope=\"col\">#</th><th scope=\"col\">Nombre</h><th scope=\"col\">Contrasena</th><th scope=\"col\">Tipo</th><th scope=\"col\" colspan=\"2\" colspan=\"text-align: center\">Acciones</th>");
+				out.println("<table class=\"table\"><tr><th scope=\"col\">#</th><th scope=\"col\">Nombre</h><th scope=\"col\">Contraseña</th><th scope=\"col\">Tipo</th><th scope=\"col\" colspan=\"2\" colspan=\"text-align: center\">Acciones</th>");
 				while(rs.next()){
 				    out.println("<tr><td>"+rs.getString("user.idUser")+"</td><td>"+rs.getString("user.email")+"</td><td>"+rs.getString("user.password")+"</td><td>"+manejador.roleToString(rs.getString("user.role"))+"</td>"
-				             + "<td><a class=\"btn btn-primary\" href='actualizaUsuario.jsp?idUser="+rs.getString("user.idUser")+"&email="+rs.getString("user.email")+"&password="+rs.getString("user.password")+"&rol="+manejador.roleToString(rs.getString("user.role"))+"'>Modificar</a></td>"
+				             + "<td><a class=\"btn btn-primary\" href='modifyUser.jsp?idUser="+rs.getString("user.idUser")+"&email="+rs.getString("user.email")+"&password="+rs.getString("user.password")+"&rol="+manejador.roleToString(rs.getString("user.role"))+"'>Modificar</a></td>"
 				             + "<td><a class=\"btn btn-danger\" href='deleteUser.action?idUser="+rs.getString("user.idUser")+"'>Eliminar</a></td></tr>");
 				System.out.println("MENSAJE: El ID a enviado fue "+rs.getString("user.idUser"));
                                 }
 				manejador.closeConnection();
 				
-              out.write("\n");
-              out.write("\t\t</div>\n");
-              out.write("\t\t\t\t<!-- Contenedores  -->\n");
-              out.write("\t\t\t\t<!-- Footer  -->\n");
-              out.write("\t\t\t\t<footer style=\"position: fixed; bottom: 0px;\">\n");
-              out.write("\t\t\t\t\t<p>&copy; Instituto Politécnico Nacional. Escuela Superior de Cómputo 2020 &middot  <a href=\"#\">Acerca de</a> &middot; <a href=\"#\">Ayuda</a></p>\n");
-              out.write("\t\t\t\t</footer>\n");
-              out.write("\t\t\t\t<!-- Footer  -->            \n");
+              out.write("\r\n");
+              out.write("\t\t</div>\r\n");
+              out.write("\t\t\t\t<!-- Contenedores  -->\r\n");
+              out.write("\t\t\t\t<!-- Footer  -->\r\n");
+              out.write("\t\t\t\t<footer style=\"position: fixed; bottom: 0px;\">\r\n");
+              out.write("\t\t\t\t\t<p>&copy; Instituto Politécnico Nacional. Escuela Superior de Cómputo 2020 &middot  <a href=\"#\">Acerca de</a> &middot; <a href=\"#\">Ayuda</a></p>\r\n");
+              out.write("\t\t\t\t</footer>\r\n");
+              out.write("\t\t\t\t<!-- Footer  -->            \r\n");
               out.write("\t\t\t");
               int evalDoAfterBody = _jspx_th_s_div_7.doAfterBody();
               if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -243,8 +243,8 @@ public final class appUsers_jsp extends org.apache.jasper.runtime.HttpJspBase
             return;
           }
           _jspx_tagPool_s_div_id.reuse(_jspx_th_s_div_7);
-          out.write("\n");
-          out.write("\t\t\t<!-- Contenido  -->\n");
+          out.write("\r\n");
+          out.write("\t\t\t<!-- Contenido  -->\r\n");
           out.write("\t\t");
           int evalDoAfterBody = _jspx_th_s_div_0.doAfterBody();
           if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -258,28 +258,28 @@ public final class appUsers_jsp extends org.apache.jasper.runtime.HttpJspBase
         return;
       }
       _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_0);
-      out.write("\n");
-      out.write("\t\t<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t\t<!-- Popper.JS -->\n");
-      out.write("\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t\t<!-- Bootstrap JS -->\n");
-      out.write("\t\t<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t\t<!-- jQuery Custom Scroller CDN -->\n");
-      out.write("\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js\"></script>\n");
-      out.write("\t\t<script type=\"text/javascript\">\n");
-      out.write("\t\t\t$(document).ready(function () {\n");
-      out.write("\t\t\t    $(\"#sidebar\").mCustomScrollbar({\n");
-      out.write("\t\t\t        theme: \"minimal\"\n");
-      out.write("\t\t\t    });\n");
-      out.write("\t\t\t    \n");
-      out.write("\t\t\t    $('#sidebarCollapse').on('click', function () {\n");
-      out.write("\t\t\t        $('#sidebar, #content').toggleClass('active');\n");
-      out.write("\t\t\t        $('.collapse.in').toggleClass('in');\n");
-      out.write("\t\t\t        $('a[aria-expanded=true]').attr('aria-expanded', 'false');\n");
-      out.write("\t\t\t    });\n");
-      out.write("\t\t\t});\n");
-      out.write("\t\t</script>\n");
-      out.write("\t</body>\n");
+      out.write("\r\n");
+      out.write("\t\t<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\t\t<!-- Popper.JS -->\r\n");
+      out.write("\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\t\t<!-- Bootstrap JS -->\r\n");
+      out.write("\t\t<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\t\t<!-- jQuery Custom Scroller CDN -->\r\n");
+      out.write("\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js\"></script>\r\n");
+      out.write("\t\t<script type=\"text/javascript\">\r\n");
+      out.write("\t\t\t$(document).ready(function () {\r\n");
+      out.write("\t\t\t    $(\"#sidebar\").mCustomScrollbar({\r\n");
+      out.write("\t\t\t        theme: \"minimal\"\r\n");
+      out.write("\t\t\t    });\r\n");
+      out.write("\t\t\t    \r\n");
+      out.write("\t\t\t    $('#sidebarCollapse').on('click', function () {\r\n");
+      out.write("\t\t\t        $('#sidebar, #content').toggleClass('active');\r\n");
+      out.write("\t\t\t        $('.collapse.in').toggleClass('in');\r\n");
+      out.write("\t\t\t        $('a[aria-expanded=true]').attr('aria-expanded', 'false');\r\n");
+      out.write("\t\t\t    });\r\n");
+      out.write("\t\t\t});\r\n");
+      out.write("\t\t</script>\r\n");
+      out.write("\t</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
@@ -365,13 +365,13 @@ public final class appUsers_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_4.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top\">\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top\">\r\n");
         out.write("\t\t\t\t\t");
         if (_jspx_meth_s_div_5((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_4, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("\t\t\t\t</nav>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t</nav>\r\n");
         out.write("\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_4.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -405,21 +405,21 @@ public final class appUsers_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_5.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t\t\t<button type=\"button\" id=\"sidebarCollapse\" class=\"btn btn-dark\">\n");
-        out.write("\t\t\t\t\t\t<i class=\"fa fa-angle-down\"></i>\n");
-        out.write("\t\t\t\t\t\t</button>\n");
-        out.write("\t\t\t\t\t\t<a id=\"sidebarCollapse\" class=\"navbar-brand\" href=\"#\">\n");
-        out.write("                                                    <img src=\"../img/systemName.gif\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">\n");
-        out.write("\t\t\t\t\t\tSistema de Apoyo para el Aprendizaje de Lengua de Señas Mexicana\n");
-        out.write("\t\t\t\t\t\t</a>\n");
-        out.write("\t\t\t\t\t\t<button class=\"btn btn-dark d-inline-block d-lg-none ml-auto\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n");
-        out.write("\t\t\t\t\t\t<i class=\"fas fa-align-justify\"></i>\n");
-        out.write("\t\t\t\t\t\t</button>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t<button type=\"button\" id=\"sidebarCollapse\" class=\"btn btn-dark\">\r\n");
+        out.write("\t\t\t\t\t\t<i class=\"fa fa-angle-down\"></i>\r\n");
+        out.write("\t\t\t\t\t\t</button>\r\n");
+        out.write("\t\t\t\t\t\t<a id=\"sidebarCollapse\" class=\"navbar-brand\" href=\"#\">\r\n");
+        out.write("                                                    <img src=\"../img/systemName.gif\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">\r\n");
+        out.write("\t\t\t\t\t\tSistema de Apoyo para el Aprendizaje de Lengua de Señas Mexicana\r\n");
+        out.write("\t\t\t\t\t\t</a>\r\n");
+        out.write("\t\t\t\t\t\t<button class=\"btn btn-dark d-inline-block d-lg-none ml-auto\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n");
+        out.write("\t\t\t\t\t\t<i class=\"fas fa-align-justify\"></i>\r\n");
+        out.write("\t\t\t\t\t\t</button>\r\n");
         out.write("\t\t\t\t\t\t");
         if (_jspx_meth_s_div_6((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_5, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_5.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -454,18 +454,18 @@ public final class appUsers_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_6.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t\t\t\t<ul class=\"nav navbar-nav ml-auto\">\n");
-        out.write("\t\t\t\t\t\t\t\t<li class=\"nav-item active\">\n");
-        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"admin.jsp\" role=\"button\"><i class=\"material-icons fa fa-home\"></i>  Inicio</a>\n");
-        out.write("\t\t\t\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t\t\t\t<li class=\"nav-item\">\n");
-        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"myInfo.jsp\" role=\"button\"><i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta</a>\n");
-        out.write("\t\t\t\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t\t\t\t<li>\n");
-        out.write("\t\t\t\t\t\t\t\t\t<a href=\"sessionClosed.jsp\" class=\"btn nav-link\" href=\"#\" role=\"button\"><i class=\"material-icons fa fa-power-off\"></i>  Cerrar sesión</a>\n");
-        out.write("\t\t\t\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t\t\t</ul>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<ul class=\"nav navbar-nav ml-auto\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<li class=\"nav-item\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"admin.jsp\" role=\"button\"><i class=\"material-icons fa fa-home\"></i>  Inicio</a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<li class=\"nav-item\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"myInfo.jsp\" role=\"button\"><i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta</a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<li>\r\n");
+        out.write("\t\t\t\t\t\t\t\t\t<a href=\"sessionClosed.jsp\" class=\"btn nav-link\" href=\"#\" role=\"button\"><i class=\"material-icons fa fa-power-off\"></i>  Cerrar sesión</a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t\t\t</ul>\r\n");
         out.write("\t\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_6.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
