@@ -7,3 +7,5 @@ build/web/WEB-INF/classes/dao/RegisterAction.class
 build/web/WEB-INF/classes/dao/UserDao.class
 build/web/WEB-INF/classes/hibernate.cfg.xml
 build/generated/classes
+web/jsp/appUsers.jsp
+build/web/jsp/appUsers.jsp
