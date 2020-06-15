@@ -611,7 +611,7 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
       do {
         out.write("\r\n");
         out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
-        out.write("\t\t\t\t\t\t\t\t<title>Validar usuarios pruebas</title>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Validar usuarios PRUEBA</title>\r\n");
         out.write("                                                            <div style=\"text-align: center;\">\r\n");
         out.write("                                                                <img src=\"../img/signs/v.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/v.png';\" onmouseover=\"this.src='../img/validateUsers.gif';\" align=\"center\"/>\r\n");
         out.write("                                                            </div>\r\n");

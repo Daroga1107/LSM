@@ -20,6 +20,10 @@
             <result name="success">/jsp/admin.jsp</result>
             <result name="input">/jsp/addUser.jsp</result>
         </action>
+        <action name="TeacherRegister" class="dao.RegisterAction">
+            <result name="success">/jsp/teacher.jsp</result>
+            <result name="input">/jsp/addStudent.jsp</result>
+        </action>        
         <action name="deleteUser" method="execute" class="dao.DeleteUserAction">
             <result name="success" >/jsp/appUsers.jsp</result>
         </action>

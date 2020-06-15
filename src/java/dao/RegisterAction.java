@@ -18,6 +18,7 @@ import org.hibernate.Transaction;
 
 public class RegisterAction extends ActionSupport {
     private String username, password, password2, role, groupkey;
+    private Integer numRole;
     private User user = new User();
     Session hibernateSession;
 
@@ -64,13 +65,16 @@ public class RegisterAction extends ActionSupport {
     public int changeRole(String role) {
         switch (role) {
             case "Administrador":
-                return 1;
+                numRole = 1;
+                return numRole;
             case "Profesor":
-                return 2;
+                numRole = 2;
+                return numRole;
             case "Estudiante":
-                return 3;            
+                numRole = 3;
+                return numRole;           
         }
-        return 0;
+        return numRole;
     }
 
     @Override
