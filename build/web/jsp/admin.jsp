@@ -135,7 +135,7 @@
 					<s:div cssClass="row">
 						<s:div cssClass="col-lg-4 text-center">
 							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-								<title>Validar usuarios pruebas</title>
+								<title>Validar usuarios PRUEBA</title>
                                                             <div style="text-align: center;">
                                                                 <img src="../img/signs/v.png" height="110" width="110" onmouseout="this.src='../img/signs/v.png';" onmouseover="this.src='../img/validateUsers.gif';" align="center"/>
                                                             </div>

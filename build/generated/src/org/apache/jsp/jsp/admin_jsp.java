@@ -15,6 +15,7 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_s_div_id;
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_s_div_cssClass_nobody;
   private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_s_div_id_cssClass;
+  private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_s_property_value_nobody;
 
   private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
 
@@ -27,6 +28,7 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
     _jspx_tagPool_s_div_id = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _jspx_tagPool_s_div_cssClass_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
     _jspx_tagPool_s_div_id_cssClass = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+    _jspx_tagPool_s_property_value_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
   }
 
   public void _jspDestroy() {
@@ -34,6 +36,7 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
     _jspx_tagPool_s_div_id.release();
     _jspx_tagPool_s_div_cssClass_nobody.release();
     _jspx_tagPool_s_div_id_cssClass.release();
+    _jspx_tagPool_s_property_value_nobody.release();
   }
 
   public void _jspService(HttpServletRequest request, HttpServletResponse response)
@@ -60,73 +63,77 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
       _jspx_out = out;
       _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
 
-      out.write("\n");
-      out.write("\n");
-      out.write("\n");
-      out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\n");
-      out.write("\t\"http://www.w3.org/TR/html4/loose.dtd\">\n");
-      out.write("<!doctype html>\n");
-      out.write("<html>\n");
-      out.write("\t<!-- Head  -->\n");
-      out.write("\t<head>\n");
-      out.write("\t\t<title>SAALSM - Administrador</title>\n");
-      out.write("\t\t<style>\n");
-      out.write("\t\t\t.bd-placeholder-img{\n");
-      out.write("\t\t\tfont-size: 1.125rem;\n");
-      out.write("\t\t\ttext-anchor: middle ;\n");
-      out.write("\t\t\t-webkit-user-select: none;\n");
-      out.write("\t\t\t-moz-user-select: none;\n");
-      out.write("\t\t\t-ms-user-select: none;\n");
-      out.write("\t\t\tuser-select: none;\n");
-      out.write("\t\t\t}\n");
-      out.write("\t\t\t@media (min-width: 768px){\n");
-      out.write("\t\t\t.bd-placeholder-img-lg{\n");
-      out.write("\t\t\tfont-size: 3.5rem;\n");
-      out.write("\t\t\t}                \n");
-      out.write("\t\t\t}\n");
-      out.write("\t\t</style>\n");
-      out.write("\t\t<meta charset=\"utf-8\">\n");
-      out.write("\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n");
-      out.write("\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n");
-      out.write("\t\t<title>Collapsible sidebar using Bootstrap 4</title>\n");
-      out.write("\t\t<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\n");
-      out.write("\t\t<!-- Bootstrap CSS CDN -->\n");
-      out.write("\t\t<link rel=\"stylesheet\" href=\"../css/bootstrap.min.css\">\n");
-      out.write("\t\t<!-- Our Custom CSS --> \n");
-      out.write("\t\t<link rel=\"stylesheet\" href=\"../css/style2.css\">\n");
-      out.write("\t\t<!-- Scrollbar Custom CSS -->\n");
-      out.write("\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css\">\n");
-      out.write("\t\t<!-- Font Awesome JS -->\n");
-      out.write("\t\t<script defer src=\"https://use.fontawesome.com/releases/v5.0.13/js/solid.js\" integrity=\"sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t\t<script defer src=\"https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js\" integrity=\"sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t</head>\n");
-      out.write("\t<!-- Head  -->\n");
-      out.write("\t<body>\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\"\r\n");
+      out.write("\t\"http://www.w3.org/TR/html4/loose.dtd\">\r\n");
+      out.write("<!doctype html>\r\n");
+      out.write("<html>\r\n");
+      out.write("\t<!-- Head  -->\r\n");
+      out.write("\t<head>\r\n");
+      out.write("\t\t<title>SAALSM - Administrador</title>\r\n");
+      out.write("\t\t<style>\r\n");
+      out.write("\t\t\t.bd-placeholder-img{\r\n");
+      out.write("\t\t\tfont-size: 1.125rem;\r\n");
+      out.write("\t\t\ttext-anchor: middle ;\r\n");
+      out.write("\t\t\t-webkit-user-select: none;\r\n");
+      out.write("\t\t\t-moz-user-select: none;\r\n");
+      out.write("\t\t\t-ms-user-select: none;\r\n");
+      out.write("\t\t\tuser-select: none;\r\n");
+      out.write("\t\t\t}\r\n");
+      out.write("\t\t\t@media (min-width: 768px){\r\n");
+      out.write("\t\t\t.bd-placeholder-img-lg{\r\n");
+      out.write("\t\t\tfont-size: 3.5rem;\r\n");
+      out.write("\t\t\t}                \r\n");
+      out.write("\t\t\t}\r\n");
+      out.write("\t\t</style>\r\n");
+      out.write("\t\t<meta charset=\"utf-8\">\r\n");
+      out.write("\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\r\n");
+      out.write("\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\r\n");
+      out.write("\t\t<title>Collapsible sidebar using Bootstrap 4</title>\r\n");
+      out.write("\t\t<link href=\"https://fonts.googleapis.com/icon?family=Material+Icons\" rel=\"stylesheet\">\r\n");
+      out.write("\t\t<!-- Bootstrap CSS CDN -->\r\n");
+      out.write("\t\t<link rel=\"stylesheet\" href=\"../css/bootstrap.min.css\">\r\n");
+      out.write("\t\t<!-- Our Custom CSS --> \r\n");
+      out.write("\t\t<link rel=\"stylesheet\" href=\"../css/style2.css\">\r\n");
+      out.write("\t\t<!-- Scrollbar Custom CSS -->\r\n");
+      out.write("\t\t<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css\">\r\n");
+      out.write("\t\t<!-- Font Awesome JS -->\r\n");
+      out.write("\t\t<script defer src=\"https://use.fontawesome.com/releases/v5.0.13/js/solid.js\" integrity=\"sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\t\t<script defer src=\"https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js\" integrity=\"sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("                <!--Libreria para las funciones-->\r\n");
+      out.write("                 <script src=\"../js/Funciones.js\"></script> \r\n");
+      out.write("        </head>\r\n");
+      out.write("\t<!-- Head  -->\r\n");
+      out.write("\t<body>\r\n");
+      out.write("            \r\n");
+      out.write("\r\n");
       out.write("\t\t");
       if (_jspx_meth_s_div_0(_jspx_page_context))
         return;
-      out.write("\n");
-      out.write("\t\t<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t\t<!-- Popper.JS -->\n");
-      out.write("\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t\t<!-- Bootstrap JS -->\n");
-      out.write("\t\t<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\n");
-      out.write("\t\t<!-- jQuery Custom Scroller CDN -->\n");
-      out.write("\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js\"></script>\n");
-      out.write("\t\t<script type=\"text/javascript\">\n");
-      out.write("\t\t\t$(document).ready(function () {\n");
-      out.write("\t\t\t    $(\"#sidebar\").mCustomScrollbar({\n");
-      out.write("\t\t\t        theme: \"minimal\"\n");
-      out.write("\t\t\t    });\n");
-      out.write("\t\t\t    \n");
-      out.write("\t\t\t    $('#sidebarCollapse').on('click', function () {\n");
-      out.write("\t\t\t        $('#sidebar, #content').toggleClass('active');\n");
-      out.write("\t\t\t        $('.collapse.in').toggleClass('in');\n");
-      out.write("\t\t\t        $('a[aria-expanded=true]').attr('aria-expanded', 'false');\n");
-      out.write("\t\t\t    });\n");
-      out.write("\t\t\t});\n");
-      out.write("\t\t</script>\n");
-      out.write("\t</body>\n");
+      out.write("\r\n");
+      out.write("\t\t<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\t\t<!-- Popper.JS -->\r\n");
+      out.write("\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js\" integrity=\"sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\t\t<!-- Bootstrap JS -->\r\n");
+      out.write("\t\t<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js\" integrity=\"sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm\" crossorigin=\"anonymous\"></script>\r\n");
+      out.write("\t\t<!-- jQuery Custom Scroller CDN -->\r\n");
+      out.write("\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js\"></script>\r\n");
+      out.write("\t\t<script type=\"text/javascript\">\r\n");
+      out.write("\t\t\t$(document).ready(function () {\r\n");
+      out.write("\t\t\t    $(\"#sidebar\").mCustomScrollbar({\r\n");
+      out.write("\t\t\t        theme: \"minimal\"\r\n");
+      out.write("\t\t\t    });\r\n");
+      out.write("\t\t\t    \r\n");
+      out.write("\t\t\t    $('#sidebarCollapse').on('click', function () {\r\n");
+      out.write("\t\t\t        $('#sidebar, #content').toggleClass('active');\r\n");
+      out.write("\t\t\t        $('.collapse.in').toggleClass('in');\r\n");
+      out.write("\t\t\t        $('a[aria-expanded=true]').attr('aria-expanded', 'false');\r\n");
+      out.write("\t\t\t    });\r\n");
+      out.write("\t\t\t});\r\n");
+      out.write("\t\t</script>\r\n");
+      out.write("\t</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {
       if (!(t instanceof SkipPageException)){
@@ -158,68 +165,68 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_0.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t<!-- Barra lateral  -->\n");
-        out.write("\t\t\t<nav id=\"sidebar\">\n");
+        out.write("\r\n");
+        out.write("\t\t\t<!-- Barra lateral  -->\r\n");
+        out.write("\t\t\t<nav id=\"sidebar\">\r\n");
         out.write("\t\t\t\t");
         if (_jspx_meth_s_div_1((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_0, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("\t\t\t\t");
         if (_jspx_meth_s_div_2((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_0, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("\t\t\t\t");
         if (_jspx_meth_s_div_3((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("\t\t\t\t<ul class=\"list-unstyled CTAs\">\n");
-        out.write("\t\t\t\t\t<li>\n");
-        out.write("\t\t\t\t\t\t<a href=\"admin.jsp\" role=\"button\">\n");
-        out.write("                                                    <i class=\"material-icons fa fa-home\"></i>  Inicio\n");
-        out.write("                                                </a>\n");
-        out.write("\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t<li>\n");
-        out.write("\t\t\t\t\t\t<a href=\"myInfo.jsp\" role=\"button\">\n");
-        out.write("                                                    <i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta\n");
-        out.write("                                                </a>\n");
-        out.write("\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t<li>\n");
-        out.write("\t\t\t\t\t\t<a href=\"validateUser.jsp\" role=\"button\">\n");
-        out.write("                                                    <i class=\"material-icons fa fa-users\"></i>  Validar usuarios\n");
-        out.write("                                                </a>\n");
-        out.write("\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t<li>\n");
-        out.write("\t\t\t\t\t\t<a href=\"addUser.jsp\" role=\"button\">\n");
-        out.write("                                                    <i class=\"material-icons fa fa-user-plus\"></i>  Agregar usuario\n");
-        out.write("                                                </a>\n");
-        out.write("\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t<li>\n");
-        out.write("\t\t\t\t\t\t<a href=\"appUsers.jsp\" role=\"button\">\n");
-        out.write("                                                    <i class=\"material-icons fa fa-user\"></i>  Ver usuarios\n");
-        out.write("                                                </a>\n");
-        out.write("\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t<br>\n");
-        out.write("\t\t\t\t\t<li>\n");
-        out.write("\t\t\t\t\t\t<a href=\"sessionClosed.jsp\" role=\"button\">\n");
-        out.write("                                                    <i class=\"material-icons fa fa-power-off\"></i>  Cerrar sesión\n");
-        out.write("                                                </a>\n");
-        out.write("\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t</ul>\n");
-        out.write("\t\t\t</nav>\n");
-        out.write("\t\t\t<!-- Barra lateral  -->\n");
-        out.write("\t\t\t<!-- Menu superior  -->\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t<ul class=\"list-unstyled CTAs\">\r\n");
+        out.write("\t\t\t\t\t<li>\r\n");
+        out.write("\t\t\t\t\t\t<a href=\"admin.jsp\" role=\"button\">\r\n");
+        out.write("                                                    <i class=\"material-icons fa fa-home\"></i>  Inicio\r\n");
+        out.write("                                                </a>\r\n");
+        out.write("\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t<li>\r\n");
+        out.write("\t\t\t\t\t\t<a href=\"myInfo.jsp\" role=\"button\">\r\n");
+        out.write("                                                    <i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta\r\n");
+        out.write("                                                </a>\r\n");
+        out.write("\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t<li>\r\n");
+        out.write("\t\t\t\t\t\t<a href=\"validateUser.jsp\" role=\"button\">\r\n");
+        out.write("                                                    <i class=\"material-icons fa fa-users\"></i>  Validar usuarios\r\n");
+        out.write("                                                </a>\r\n");
+        out.write("\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t<li>\r\n");
+        out.write("\t\t\t\t\t\t<a href=\"addUser.jsp\" role=\"button\">\r\n");
+        out.write("                                                    <i class=\"material-icons fa fa-user-plus\"></i>  Agregar usuario\r\n");
+        out.write("                                                </a>\r\n");
+        out.write("\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t<li>\r\n");
+        out.write("\t\t\t\t\t\t<a href=\"appUsers.jsp\" role=\"button\">\r\n");
+        out.write("                                                    <i class=\"material-icons fa fa-user\"></i>  Ver usuarios\r\n");
+        out.write("                                                </a>\r\n");
+        out.write("\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t<br>\r\n");
+        out.write("\t\t\t\t\t<li>\r\n");
+        out.write("\t\t\t\t\t\t<a href=\"sessionClosed.jsp\" role=\"button\">\r\n");
+        out.write("                                                    <i class=\"material-icons fa fa-power-off\"></i>  Cerrar sesión\r\n");
+        out.write("                                                </a>\r\n");
+        out.write("\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t</ul>\r\n");
+        out.write("\t\t\t</nav>\r\n");
+        out.write("\t\t\t<!-- Barra lateral  -->\r\n");
+        out.write("\t\t\t<!-- Menu superior  -->\r\n");
         out.write("\t\t\t");
         if (_jspx_meth_s_div_4((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("\t\t\t<!-- Menu superior  -->\n");
-        out.write("\t\t\t<!-- Contenido  -->\n");
+        out.write("\r\n");
+        out.write("\t\t\t<!-- Menu superior  -->\r\n");
+        out.write("\t\t\t<!-- Contenido  -->\r\n");
         out.write("\t\t\t");
         if (_jspx_meth_s_div_7((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_0, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("\t\t\t<!-- Contenido  -->\n");
+        out.write("\r\n");
+        out.write("\t\t\t<!-- Contenido  -->\r\n");
         out.write("\t\t");
         int evalDoAfterBody = _jspx_th_s_div_0.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -307,13 +314,13 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_4.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top\">\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-dark fixed-top\">\r\n");
         out.write("\t\t\t\t\t");
         if (_jspx_meth_s_div_5((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_4, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("\t\t\t\t</nav>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t</nav>\r\n");
         out.write("\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_4.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -347,21 +354,21 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_5.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t\t\t<button type=\"button\" id=\"sidebarCollapse\" class=\"btn btn-dark\">\n");
-        out.write("\t\t\t\t\t\t<i class=\"fa fa-angle-down\"></i>\n");
-        out.write("\t\t\t\t\t\t</button>\n");
-        out.write("\t\t\t\t\t\t<a id=\"sidebarCollapse\" class=\"navbar-brand\" href=\"#\">\n");
-        out.write("                                                    <img src=\"../img/systemName.gif\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">\n");
-        out.write("\t\t\t\t\t\tSistema de Apoyo para el Aprendizaje de Lengua de Señas Mexicana\n");
-        out.write("\t\t\t\t\t\t</a>\n");
-        out.write("\t\t\t\t\t\t<button class=\"btn btn-dark d-inline-block d-lg-none ml-auto\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n");
-        out.write("\t\t\t\t\t\t<i class=\"fas fa-align-justify\"></i>\n");
-        out.write("\t\t\t\t\t\t</button>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t<button type=\"button\" id=\"sidebarCollapse\" class=\"btn btn-dark\">\r\n");
+        out.write("\t\t\t\t\t\t<i class=\"fa fa-angle-down\"></i>\r\n");
+        out.write("\t\t\t\t\t\t</button>\r\n");
+        out.write("\t\t\t\t\t\t<a id=\"sidebarCollapse\" class=\"navbar-brand\" href=\"#\">\r\n");
+        out.write("                                                    <img src=\"../img/systemName.gif\" width=\"30\" height=\"30\" class=\"d-inline-block align-top\" alt=\"\">\r\n");
+        out.write("\t\t\t\t\t\tSistema de Apoyo para el Aprendizaje de Lengua de Señas Mexicana \r\n");
+        out.write("\t\t\t\t\t\t</a>\r\n");
+        out.write("\t\t\t\t\t\t<button class=\"btn btn-dark d-inline-block d-lg-none ml-auto\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\r\n");
+        out.write("\t\t\t\t\t\t<i class=\"fas fa-align-justify\"></i>\r\n");
+        out.write("\t\t\t\t\t\t</button>\r\n");
         out.write("\t\t\t\t\t\t");
         if (_jspx_meth_s_div_6((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_5, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_5.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -396,18 +403,18 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_6.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t\t\t\t<ul class=\"nav navbar-nav ml-auto\">\n");
-        out.write("\t\t\t\t\t\t\t\t<li class=\"nav-item active\">\n");
-        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"admin.jsp\" role=\"button\"><i class=\"material-icons fa fa-home\"></i>  Inicio</a>\n");
-        out.write("\t\t\t\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t\t\t\t<li class=\"nav-item\">\n");
-        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"myInfo.jsp\" role=\"button\"><i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta</a>\n");
-        out.write("\t\t\t\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t\t\t\t<li>\n");
-        out.write("\t\t\t\t\t\t\t\t\t<a href=\"sessionClosed.jsp\" class=\"btn nav-link\" href=\"#\" role=\"button\"><i class=\"material-icons fa fa-power-off\"></i>  Cerrar sesión</a>\n");
-        out.write("\t\t\t\t\t\t\t\t</li>\n");
-        out.write("\t\t\t\t\t\t\t</ul>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<ul class=\"nav navbar-nav ml-auto\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<li class=\"nav-item active\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"admin.jsp\" role=\"button\"><i class=\"material-icons fa fa-home\"></i>  Inicio</a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<li class=\"nav-item\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t\t<a class=\"btn nav-link\" href=\"myInfo.jsp\" role=\"button\"><i class=\"material-icons fa fa-user-circle\"></i>  Mi cuenta</a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<li>\r\n");
+        out.write("\t\t\t\t\t\t\t\t\t<a href=\"sessionClosed.jsp\" class=\"btn nav-link\" href=\"#\" role=\"button\"><i class=\"material-icons fa fa-power-off\"></i>  Cerrar sesión</a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t</li>\r\n");
+        out.write("\t\t\t\t\t\t\t</ul>\r\n");
         out.write("\t\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_6.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -441,28 +448,28 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_7.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t<br>\n");
-        out.write("\t\t\t\t<br>\n");
-        out.write("\t\t\t\t<br>\n");
-        out.write("\t\t\t\t<!-- Carrusel  -->\n");
-        out.write("\t\t\t\t<!-- Carrusel  -->\n");
-        out.write("\t\t\t\t<!-- Contenedores  -->\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t<br>\r\n");
+        out.write("\t\t\t\t<br>\r\n");
+        out.write("\t\t\t\t<br>\r\n");
+        out.write("\t\t\t\t<!-- Carrusel  -->\r\n");
+        out.write("\t\t\t\t<!-- Carrusel  -->\r\n");
+        out.write("\t\t\t\t<!-- Contenedores  -->\r\n");
         out.write("\t\t\t\t");
         if (_jspx_meth_s_div_8((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_7, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("\t\t\t\t");
         if (_jspx_meth_s_div_9((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_7, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("\t\t\t\t<!-- Contenedores  -->\n");
-        out.write("\t\t\t\t<hr class=\"featurette-divider\">\n");
-        out.write("\t\t\t\t<!-- Footer  -->\n");
-        out.write("\t\t\t\t<footer style=\"position: fixed; bottom: 0px;\">\n");
-        out.write("\t\t\t\t\t<p>&copy; Instituto Politécnico Nacional. Escuela Superior de Cómputo 2020 &middot  <a href=\"#\">Acerca de</a> &middot; <a href=\"#\">Ayuda</a></p>\n");
-        out.write("\t\t\t\t</footer>\n");
-        out.write("\t\t\t\t<!-- Footer  -->            \n");
+        out.write("\r\n");
+        out.write("\t\t\t\t<!-- Contenedores  -->\r\n");
+        out.write("\t\t\t\t<hr class=\"featurette-divider\">\r\n");
+        out.write("\t\t\t\t<!-- Footer  -->\r\n");
+        out.write("\t\t\t\t<footer style=\"position: fixed; bottom: 0px;\">\r\n");
+        out.write("\t\t\t\t\t<p>&copy; Instituto Politécnico Nacional. Escuela Superior de Cómputo 2020 &middot  <a href=\"#\">Acerca de</a> &middot; <a href=\"#\">Ayuda</a></p>\r\n");
+        out.write("\t\t\t\t</footer>\r\n");
+        out.write("\t\t\t\t<!-- Footer  -->            \r\n");
         out.write("\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_7.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -514,15 +521,15 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_9.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t\t<!-- Three columns of text below the carousel -->\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t<!-- Three columns of text below the carousel -->\r\n");
         out.write("\t\t\t\t\t");
         if (_jspx_meth_s_div_10((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_9, _jspx_page_context))
           return true;
-        out.write("\n");
-        out.write("\t\t\t\t\t<!-- /.row -->\n");
-        out.write("\t\t\t\t\t<!-- START THE FEATURETTES -->\n");
-        out.write("\t\t\t\t\t<!-- /END THE FEATURETTES -->\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t<!-- /.row -->\r\n");
+        out.write("\t\t\t\t\t<!-- START THE FEATURETTES -->\r\n");
+        out.write("\t\t\t\t\t<!-- /END THE FEATURETTES -->\r\n");
         out.write("\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_9.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -556,19 +563,19 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_10.doInitBody();
       }
       do {
-        out.write("\n");
+        out.write("\r\n");
         out.write("\t\t\t\t\t\t");
         if (_jspx_meth_s_div_11((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_10, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("\t\t\t\t\t\t");
         if (_jspx_meth_s_div_12((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_10, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("\t\t\t\t\t\t");
         if (_jspx_meth_s_div_13((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_10, _jspx_page_context))
           return true;
-        out.write("\n");
+        out.write("\r\n");
         out.write("\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_10.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -602,17 +609,21 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_11.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\n");
-        out.write("\t\t\t\t\t\t\t\t<title>Validar usuarios</title>\n");
-        out.write("\t\t\t\t\t\t\t\t<image href=\"../img/validateUsers.gif\" height=\"140\" width=\"110\"/>\n");
-        out.write("\t\t\t\t\t\t\t</svg>\n");
-        out.write("\t\t\t\t\t\t\t<h2>Validar usuarios</h2>\n");
-        out.write("\t\t\t\t\t\t\t<p>Aquí puedes modificar los datos de los usuarios de la aplicación</p>\n");
-        out.write("\t\t\t\t\t\t\t<p>\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"validateUser.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-secondary\" href=\"#\" role=\"button\"><i class=\"material-icons md-inactive\">check</i></a>\n");
-        out.write("\t\t\t\t\t\t\t</p>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Validar usuarios pruebas</title>\r\n");
+        out.write("                                                            <div style=\"text-align: center;\">\r\n");
+        out.write("                                                                <img src=\"../img/signs/v.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/v.png';\" onmouseover=\"this.src='../img/validateUsers.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                            </div>\r\n");
+        out.write("                                                                    \r\n");
+        out.write("                                                                \r\n");
+        out.write("\t\t\t\t\t\t\t</svg>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Validar usuarios</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Aquí puedes modificar los datos de los usuarios de la aplicación</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"validateUser.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-secondary\" href=\"#\" role=\"button\"><i class=\"material-icons md-inactive\">check</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t</p>\r\n");
         out.write("\t\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_11.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -646,17 +657,19 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_12.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\n");
-        out.write("\t\t\t\t\t\t\t\t<title>Agregar usuarios</title>\n");
-        out.write("\t\t\t\t\t\t\t\t<image href=\"../img/addUser.gif\" height=\"140\" width=\"110\"/>\n");
-        out.write("\t\t\t\t\t\t\t</svg>\n");
-        out.write("\t\t\t\t\t\t\t<h2>Agregar usuario</h2>\n");
-        out.write("\t\t\t\t\t\t\t<p>Aquí puedes registrar o eliminar usuarios de la aplicación</p>\n");
-        out.write("\t\t\t\t\t\t\t<p>\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"addUser.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-secondary\" href=\"#\" role=\"button\"><i class=\"material-icons md-inactive\">check</i></a>\n");
-        out.write("\t\t\t\t\t\t\t</p>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<svg class=\"bd-placeholder-img rounded-circle\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Agregar usuarios</title>\r\n");
+        out.write("                                                                <div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/a.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/a.png';\" onmouseover=\"this.src='../img/addUser.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
+        out.write("\t\t\t\t\t\t\t</svg>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Agregar usuario</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>Aquí puedes registrar o eliminar usuarios de la aplicación</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"addUser.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-secondary\" href=\"#\" role=\"button\"><i class=\"material-icons md-inactive\">check</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t</p>\r\n");
         out.write("\t\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_12.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -690,17 +703,22 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
         _jspx_th_s_div_13.doInitBody();
       }
       do {
-        out.write("\n");
-        out.write("\t\t\t\t\t\t\t<svg  class=\"rounded-circle static\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\n");
-        out.write("\t\t\t\t\t\t\t\t<title>Mi cuenta</title>\n");
-        out.write("\t\t\t\t\t\t\t\t<image href=\"../img/myAccount.gif\" height=\"140\" width=\"110\"/>\n");
-        out.write("\t\t\t\t\t\t\t</svg>\n");
-        out.write("\t\t\t\t\t\t\t<h2>Mi cuenta</h2>\n");
-        out.write("\t\t\t\t\t\t\t<p>Aquí puedes modificar tu información de usuario</p>\n");
-        out.write("\t\t\t\t\t\t\t<p>\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"myInfo.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\n");
-        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-secondary\" href=\"#\" role=\"button\"><i class=\"material-icons md-inactive\">check</i></a>\n");
-        out.write("\t\t\t\t\t\t\t</p>\n");
+        out.write("\r\n");
+        out.write("\t\t\t\t\t\t\t<svg  class=\"rounded-circle static\" width=\"140\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\" preserveAspectRatio=\"xMidYMid slice\" focusable=\"false\" role=\"img\" aria-label=\"Placeholder: 140x140\">\r\n");
+        out.write("\t\t\t\t\t\t\t\t<title>Mi cuenta</title>\r\n");
+        out.write("                                                                <div style=\"text-align: center;\">\r\n");
+        out.write("                                                                    <img src=\"../img/signs/m.png\" height=\"110\" width=\"110\" onmouseout=\"this.src='../img/signs/m.png';\" onmouseover=\"this.src='../img/myAccount.gif';\" align=\"center\"/>\r\n");
+        out.write("                                                                </div>\r\n");
+        out.write("\t\t\t\t\t\t\t</svg>\r\n");
+        out.write("\t\t\t\t\t\t\t<h2>Mi cuenta</h2>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>");
+        if (_jspx_meth_s_property_0((javax.servlet.jsp.tagext.JspTag) _jspx_th_s_div_13, _jspx_page_context))
+          return true;
+        out.write("</p>\r\n");
+        out.write("\t\t\t\t\t\t\t<p>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-primary\" href=\"myInfo.jsp\" role=\"button\"><i class=\"material-icons\">chevron_right</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t\t<a class=\"btn btn-secondary\" href=\"#\" role=\"button\"><i class=\"material-icons md-inactive\">check</i></a>\r\n");
+        out.write("\t\t\t\t\t\t\t</p>\r\n");
         out.write("\t\t\t\t\t\t");
         int evalDoAfterBody = _jspx_th_s_div_13.doAfterBody();
         if (evalDoAfterBody != javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN)
@@ -714,6 +732,24 @@ public final class admin_jsp extends org.apache.jasper.runtime.HttpJspBase
       return true;
     }
     _jspx_tagPool_s_div_cssClass.reuse(_jspx_th_s_div_13);
+    return false;
+  }
+
+  private boolean _jspx_meth_s_property_0(javax.servlet.jsp.tagext.JspTag _jspx_th_s_div_13, PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  s:property
+    org.apache.struts2.views.jsp.PropertyTag _jspx_th_s_property_0 = (org.apache.struts2.views.jsp.PropertyTag) _jspx_tagPool_s_property_value_nobody.get(org.apache.struts2.views.jsp.PropertyTag.class);
+    _jspx_th_s_property_0.setPageContext(_jspx_page_context);
+    _jspx_th_s_property_0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_div_13);
+    _jspx_th_s_property_0.setValue("user.email");
+    int _jspx_eval_s_property_0 = _jspx_th_s_property_0.doStartTag();
+    if (_jspx_th_s_property_0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_s_property_value_nobody.reuse(_jspx_th_s_property_0);
+      return true;
+    }
+    _jspx_tagPool_s_property_value_nobody.reuse(_jspx_th_s_property_0);
     return false;
   }
 }
