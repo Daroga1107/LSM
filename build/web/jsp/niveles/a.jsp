@@ -132,19 +132,19 @@
 					<s:div cssClass="row">
 						<s:div cssClass="col-lg-4 text-center">
 							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-								<title>Letra A</title>
-								<image href="../../img/signs/a.png" height="140" width="110"/>
+								<title>Letra C</title>
+								<image href="../../img/signs/c.png" height="140" width="110"/>
 							</svg>
-							<h2>Letra A</h2>
+							<h2>Letra C</h2>
 							<p>
                                                             <a  class="btn btn-primary" href="alphabet.jsp" role="button"><i class="material-icons">chevron_left</i></a>
 								
 							</p>
 						</s:div>						
 						<s:div cssClass="col-lg-4 text-center">
-							<svg class="bd-placeholder-img" width="350" height="300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+							<svg class="bd-placeholder-img" width="100" height="200" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
 								<title>Letra A</title>
-                                                                <rect width="350" height="300" style="fill:rgb(255,255,255);stroke-width:5;stroke:rgb(0,0,0)" />
+                                                                <rect width="100" height="200" style="fill:rgb(255,255,255);stroke-width:5;stroke:rgb(0,0,0)" />
 							</svg>
                                                         <p>
                                                         <form class="form-signin" action="#">
