@@ -136,8 +136,8 @@
 							</svg>
 							<h2>Letra A</h2>
 							<p>
-								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>
+                                                            <a class="btn btn-primary" href="a.jsp" role="button"><i class="material-icons">chevron_right</i></a>
+                                                            <a class="btn btn-success" href="" role="button"><i class="material-icons md-inactive">check</i></a>
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -148,7 +148,7 @@
 							<h2>Letra B</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-success" href="#" role="button"><i class="material-icons md-inactive">check</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -159,7 +159,7 @@
 							<h2>Letra C</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -170,7 +170,7 @@
 							<h2>Letra D</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -181,7 +181,7 @@
 							<h2>Letra E</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -192,7 +192,7 @@
 							<h2>Letra F</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -203,7 +203,7 @@
 							<h2>Letra G</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -214,7 +214,7 @@
 							<h2>Letra H</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -225,7 +225,7 @@
 							<h2>Letra I</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -236,7 +236,7 @@
 							<h2>Letra J</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -247,7 +247,7 @@
 							<h2>Letra K</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>                        
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -258,7 +258,7 @@
 							<h2>Letra L</h2>
 							<p>
 								<a class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>                            
-								<a class="btn btn-secondary" href="niveles/alphabet.jsp" role="button"><i class="material-icons md-inactive">check</i></a>                        
+								<a class="btn btn-warning" href="#" role="button"><i class="material-icons md-inactive">play_arrow</i></a>
 							</p>
 						</s:div>
 					</s:div>
