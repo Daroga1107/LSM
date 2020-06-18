@@ -1,5 +1,5 @@
 <%-- 
-	Document   : admin
+	Document   : a
 	Created on : 21/04/2019, 03:57:22 PM
 	Author     : Rodrigo
 	--%>
@@ -12,7 +12,7 @@
 <html>
 	<!-- Head  -->
 	<head>
-		<title>SAALSM - Profesor</title>
+		<title>SAALSM - Abecedario</title>
 		<style>
 			.bd-placeholder-img{
 			font-size: 1.125rem;
@@ -34,15 +34,16 @@
 		<title>Collapsible sidebar using Bootstrap 4</title>
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!-- Bootstrap CSS CDN -->
-		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../../css/bootstrap.min.css">
 		<!-- Our Custom CSS --> 
-		<link rel="stylesheet" href="../css/style2.css">
+		<link rel="stylesheet" href="../../css/style2.css">
 		<!-- Scrollbar Custom CSS -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 		<!-- Font Awesome JS -->
 		<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
 		<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-	</head>
+                
+        </head>
 	<!-- Head  -->
 	<body>
 		<s:div cssClass="wrapper">
@@ -53,40 +54,35 @@
 				<s:div cssClass="sidebar-header"></s:div>
 				<ul class="list-unstyled CTAs">
 					<li>
-						<a href="teacher.jsp" role="button">
-                                                    <i class="material-icons fa fa-home"></i>  Inicio
-                                                </a>
+						<a href="../student.jsp" role="button">
+						<i class="material-icons fa fa-home"></i>  Inicio
+						</a>
 					</li>
 					<li>
-						<a href="myInfoTeacher.jsp" role="button">
-                                                    <i class="material-icons fa fa-user-circle"></i>  Mi cuenta
-                                                </a>
+						<a href="../myInfo.jsp" role="button">
+						<i class="material-icons fa fa-user-circle"></i>  Mi cuenta
+						</a>
 					</li>
 					<li>
-                                            <a href="myGroups.jsp" role="button">
-                                                    <i class="material-icons fa fa-users"></i>  Mis grupos
-                                                </a>
-					</li>
-                                        <li>
-						<a href="addStudent.jsp" role="button">
-                                                    <i class="material-icons fa fa-user-plus"></i>  Inscribir alumno
-                                                </a>
+                                                <a href="../keepLearning.jsp" role="button">
+						<i class="material-icons fa fa-american-sign-language-interpreting"></i>  Continuar aprendiendo
+						</a>
 					</li>
 					<li>
-						<a href="progress.jsp" role="button">
-                                                    <i class="material-icons fa fa-tasks"></i>  Ver progreso
-                                                </a>
-					</li>					
+						<a href="../myProgress.jsp" role="button">
+						<i class="material-icons fa fa-tasks"></i>  Mi avance
+						</a>
+					</li>
 					<li>
-						<a href="availableModules.jsp" role="button">
-                                                    <i class="material-icons fa fa-user"></i>  Ver módulos
-                                                </a>
+						<a href="../myGroup.jsp" role="button">
+						<i class="material-icons fa fa-users"></i>  Mi grupo
+						</a>
 					</li>
 					<br>
 					<li>
-						<a href="sessionClosed.jsp" role="button">
-                                                    <i class="material-icons fa fa-power-off"></i>  Cerrar sesión
-                                                </a>
+						<a href="../sessionClosed.jsp" role="button">
+						<i class="material-icons fa fa-power-off"></i>  Cerrar sesión
+						</a>
 					</li>
 				</ul>
 			</nav>
@@ -99,7 +95,7 @@
 						<i class="fa fa-angle-down"></i>
 						</button>
 						<a id="sidebarCollapse" class="navbar-brand" href="#">
-                                                    <img src="../img/systemName.gif" width="30" height="30" class="d-inline-block align-top" alt="">
+						<img src="../../img/systemName.gif" width="30" height="30" class="d-inline-block align-top" alt="">
 						Sistema de Apoyo para el Aprendizaje de Lengua de Señas Mexicana
 						</a>
 						<button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -108,13 +104,13 @@
 						<s:div cssClass="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="nav navbar-nav ml-auto">
 								<li class="nav-item active">
-									<a class="btn nav-link" href="teacher.jsp" role="button"><i class="material-icons fa fa-home"></i>  Inicio</a>
+									<a class="btn nav-link" href="../student.jsp" role="button"><i class="material-icons fa fa-home"></i>  Inicio</a>
 								</li>
 								<li class="nav-item">
-									<a class="btn nav-link" href="myInfoTeacher.jsp" role="button"><i class="material-icons fa fa-user-circle"></i>  Mi cuenta</a>
+									<a class="btn nav-link" href="../myInfo.jsp" role="button"><i class="material-icons fa fa-user-circle"></i>  Mi cuenta</a>
 								</li>
 								<li>
-									<a href="sessionClosed.jsp" class="btn nav-link" href="#" role="button"><i class="material-icons fa fa-power-off"></i>  Cerrar sesión</a>
+									<a href="../sessionClosed.jsp" class="btn nav-link" href="#" role="button"><i class="material-icons fa fa-power-off"></i>  Cerrar sesión</a>
 								</li>
 							</ul>
 						</s:div>
@@ -128,7 +124,7 @@
 				<br>
 				<br>
 				<!-- Carrusel  -->
-				<!-- Carrusel  --> 
+				<!-- Carrusel  -->
 				<!-- Contenedores  -->
 				<s:div cssClass="line"></s:div>
 				<s:div cssClass="container marketing">
@@ -136,46 +132,22 @@
 					<s:div cssClass="row">
 						<s:div cssClass="col-lg-4 text-center">
 							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-								<title>Ver módulos</title>
-								<div style="text-align: center;">
-                                                                    <img src="../img/signs/m.png" height="110" width="110" onmouseout="this.src='../img/signs/m.png';" onmouseover="this.src='../img/seeModules.gif';" align="center"/>
-                                                                </div>
+								<title>Letra A</title>
+								<image href="../../img/signs/a.png" height="140" width="110"/>
 							</svg>
-							<h2>Ver módulos</h2>
-							<p>Aquí puedes ver los módulos actualmente disponibles en la aplicación</p>
+							<h2>Letra A</h2>
 							<p>
-								<a class="btn btn-primary" href="availableModules.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
+								<a id="boton" class="btn btn-primary" href="niveles/alphabet.jsp" role="button"><i class="material-icons">chevron_right</i></a>
+								<a class="btn btn-success" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
 							</p>
-						</s:div>
+						</s:div>						
 						<s:div cssClass="col-lg-4 text-center">
-							<svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-								<title>Ver progreso</title>
-								<div style="text-align: center;">
-                                                                    <img src="../img/signs/p.png" height="110" width="110" onmouseout="this.src='../img/signs/p.png';" onmouseover="this.src='../img/watchProgress.gif';" align="center"/>
-                                                                </div>
+							<svg class="bd-placeholder-img" width="400" height="300" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
+								<title>Letra A</title>
+                                                                <rect width="400" height="300" style="fill:rgb(255,255,255);stroke-width:5;stroke:rgb(0,0,0)" />
 							</svg>
-							<h2>Ver progreso</h2>
-							<p>Aquí puedes ver las estadistícas de tus grupos</p>
-							<p>
-								<a class="btn btn-primary" href="progress.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
-							</p>
-						</s:div>
-						<s:div cssClass="col-lg-4 text-center">
-							<svg  class="rounded-circle static" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-								<title>Mis grupos</title>
-								<div style="text-align: center;">
-                                                                    <img src="../img/signs/g.png" height="110" width="110" onmouseout="this.src='../img/signs/g.png';" onmouseover="this.src='../img/myGroups.gif';" align="center"/>
-                                                                </div>
-							</svg>
-							<h2>Mis grupos</h2>
-							<p>Aquí puedes consultar la información de tus grupos</p>
-							<p>
-								<a class="btn btn-primary" href="myGroups.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
-							</p>
-						</s:div>
+						</s:div>						
+						
 					</s:div>
 					<!-- /.row -->
 					<!-- START THE FEATURETTES -->
@@ -209,7 +181,13 @@
 			        $('.collapse.in').toggleClass('in');
 			        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
 			    });
-			});
+                            setTimeout(function(){
+                            $("#boton").toggleClass("bien");
+                            document.getElementById("boton").style.color = "green";
+                        }, 100);
+			}                          
+            
+            );
 		</script>
 	</body>
 </html>
