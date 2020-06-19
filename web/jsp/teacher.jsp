@@ -58,13 +58,13 @@
                                                 </a>
 					</li>
 					<li>
-						<a href="myInfoTeacher.jsp" role="button">
+						<a href="<s:url value="myInfoTeacher.jsp?"><s:param name="email"><s:property value="user.email" /></s:param><s:param name="password"><s:property value="user.password" /></s:param><s:param name="idUser"><s:property value="user.idUser" /></s:param></s:url>" role="button">
                                                     <i class="material-icons fa fa-user-circle"></i>  Mi cuenta
                                                 </a>
 					</li>
 					<li>
                                             <a href="myGroups.jsp" role="button">
-                                                    <i class="material-icons fa fa-users"></i>  Mis grupos
+                                                    <i class="material-icons fa fa-users"></i>  Mis alumnos
                                                 </a>
 					</li>
                                         <li>
@@ -111,7 +111,7 @@
 									<a class="btn nav-link" href="teacher.jsp" role="button"><i class="material-icons fa fa-home"></i>  Inicio</a>
 								</li>
 								<li class="nav-item">
-									<a class="btn nav-link" href="myInfoTeacher.jsp" role="button"><i class="material-icons fa fa-user-circle"></i>  Mi cuenta</a>
+                                                                    <a class="btn nav-link" href="<s:url value="myInfoTeacher.jsp?"><s:param name="email"><s:property value="user.email" /></s:param><s:param name="password"><s:property value="user.password" /></s:param><s:param name="idUser"><s:property value="user.idUser" /></s:param></s:url>" role="button"><i class="material-icons fa fa-user-circle"></i>  Mi cuenta</a>
 								</li>
 								<li>
 									<a href="sessionClosed.jsp" class="btn nav-link" href="#" role="button"><i class="material-icons fa fa-power-off"></i>  Cerrar sesión</a>
@@ -145,7 +145,6 @@
 							<p>Aquí puedes ver los módulos actualmente disponibles en la aplicación</p>
 							<p>
 								<a class="btn btn-primary" href="availableModules.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -156,24 +155,22 @@
                                                                 </div>
 							</svg>
 							<h2>Ver progreso</h2>
-							<p>Aquí puedes ver las estadistícas de tus grupos</p>
+							<p>Aquí puedes ver las estadistícas de tus alumnos</p>
 							<p>
 								<a class="btn btn-primary" href="progress.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
 							<svg  class="rounded-circle static" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
-								<title>Mis grupos</title>
+								<title>Mis alumnos</title>
 								<div style="text-align: center;">
                                                                     <img src="../img/signs/g.png" height="110" width="110" onmouseout="this.src='../img/signs/g.png';" onmouseover="this.src='../img/myGroups.gif';" align="center"/>
                                                                 </div>
 							</svg>
-							<h2>Mis grupos</h2>
-							<p>Aquí puedes consultar la información de tus grupos</p>
+							<h2>Mis alumnos</h2>
+							<p>Aquí puedes consultar la información de tus alumnos</p>
 							<p>
 								<a class="btn btn-primary" href="myGroups.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
 							</p>
 						</s:div>
 					</s:div>

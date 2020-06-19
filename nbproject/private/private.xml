@@ -3,17 +3,28 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/validateUser.jsp</file>
             <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/myInfo.jsp</file>
             <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/src/java/dao/ModifyUserAction.java</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/addStudent.jsp</file>
             <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/js/sketch.js</file>
             <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/modifyUser.jsp</file>
-            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/modifyMyInfo.jsp</file>
-            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/src/java/dao/myInfoAction.java</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/availableModules.jsp</file>
             <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/appUsers.jsp</file>
-            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/admin.jsp</file>
             <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/index.jsp</file>
             <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/niveles/a.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/validateUser.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/teacher.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/myGroups.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/src/java/struts.xml</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/modifyStudent.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/myInfoTeacher.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/modifyMyInfo.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/src/java/dao/myInfoAction.java</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/src/java/dao/RegisterAction.java</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/admin.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/keepLearning.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/progress.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/src/java/entity/User.java</file>
         </group>
     </open-files>
 </project-private>

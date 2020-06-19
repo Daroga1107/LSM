@@ -180,10 +180,6 @@
 							</select>
 							<br>
 						</s:div>
-						<s:div cssClass="mb-3">
-							<s:label theme="simple" for="clave">Clave de grupo <span class="text-muted">(Opcional)</span></s:label>
-							<s:textfield name="groupkey" type="text" cssClass="form-control" placeholder="Clave de grupo" theme="simple"/>
-						</s:div>
 						<hr class="mb-3">
 						<s:submit cssClass="btn btn-success btn-lg btn-block" type="submit" theme="simple" label="Inscribir" value="Completar Registro"/>
 					</s:form>

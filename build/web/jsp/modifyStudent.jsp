@@ -132,21 +132,57 @@
 				<!-- Carrusel  -->
 				<!-- Carrusel  --> 
 				<!-- Contenedores  -->
-				<div align="center">
-					<%                
-                                            ResultSet rs=null;
-                                            manejador.setConnection("com.mysql.jdbc.Driver","jdbc:mysql://localhost:3306/LSM");
-                                            rs=manejador.executeQuery("SELECT User.idUser, User.email, User.password, User.role from User where User.role=3");
-                                            out.println("<table class=\"table\"><tr><th scope=\"col\">#</th><th scope=\"col\">Nombre</h><th scope=\"col\">Contraseña</th><th scope=\"col\">Tipo</th><th scope=\"col\" colspan=\"2\" colspan=\"text-align: center\">Acciones</th>");
-                                            while(rs.next()){
-                                                out.println("<tr><td>"+rs.getString("user.idUser")+"</td><td>"+rs.getString("user.email")+"</td><td>"+rs.getString("user.password")+"</td><td>"+manejador.roleToString(rs.getString("user.role"))+"</td>"
-                                                         + "<td><a class=\"btn btn-primary\" href='modifyStudent.jsp?idUser="+rs.getString("user.idUser")+"&email="+rs.getString("user.email")+"&password="+rs.getString("user.password")+"&rol="+manejador.roleToString(rs.getString("user.role"))+"'>Modificar</a></td>"
-                                                         + "<td><a class=\"btn btn-danger\" href='deleteStudent.action?idUser="+rs.getString("user.idUser")+"'>Eliminar</a></td></tr>");
-                                            System.out.println("MENSAJE: El ID a enviado fue "+rs.getString("user.idUser"));
-                                            }
-                                            manejador.closeConnection();
-                                            %>
-				</div>
+				<s:div cssClass="line"></s:div>
+				<div class="col-md-6 order-md-4 offset-md-3">
+				<s:form action="modifyStudent.action" method="post" validate="true">
+					<h1 class="h2 mb-3 font-weight-normal">Modificar usuario</h1>
+					<br>
+					<s:hidden theme="simple" type="text"  cssClass="form-control" placeholder="Identificador" name="idUser" requiredLabel="true" onfocus="true" value="%{#parameters.idUser}"/>
+                                        <s:hidden theme="simple" type="text"  cssClass="form-control" placeholder="Rol" name="role" requiredLabel="true" onfocus="true" value="%{#parameters.rol}"/>
+                                        <!--Corre electrónico-->
+                                        <s:div cssClass="row">
+                                            <s:div cssClass="input-group col-md-6 mb-3">
+                                                    <s:div cssClass="input-group-prepend">
+                                                            <span class="input-group-text">@</span>
+                                                    </s:div>
+                                                    <s:textfield theme="simple" type="email" id="inputEmail" cssClass="form-control" placeholder="Correo electrónico" value="%{#parameters.email}" disabled="true"/>
+                                            </s:div>
+                                            <s:div cssClass="input-group col-md-6 mb-3">
+                                                    <s:div cssClass="input-group-prepend">
+                                                            <span class="input-group-text">@</span>
+                                                    </s:div>
+                                                    <s:textfield theme="simple" type="email" id="inputEmail" cssClass="form-control" placeholder="Correo electrónico" name="email" requiredLabel="true" onfocus="true" value="%{#parameters.email}"/>
+                                            </s:div>
+                                        </s:div>
+                                        <!--Corre electrónico-->
+					<br>
+                                        <!--Contraseña-->
+                                        <s:div cssClass="row">
+					<s:div cssClass="input-group col-md-4 mb-3">
+						<s:div cssClass="input-group-prepend">
+							<span class="input-group-text">&#x1f512</span>
+						</s:div>
+                                                <s:textfield theme="simple" type="text" id="inputPassword" cssClass="form-control" placeholder="Contraseña" name="password" value="%{#parameters.password}" disabled="true"/>
+					</s:div>
+					<s:div cssClass="input-group col-md-4 mb-3">
+						<s:div cssClass="input-group-prepend">
+							<span class="input-group-text">&#x1f512</span>
+						</s:div>
+						<s:textfield theme="simple" type="text" id="inputPassword" cssClass="form-control" placeholder="Contraseña" name="password" requiredLabel="true" onfocus="true" value="%{#parameters.password}"/>
+					</s:div>
+					<s:div cssClass="input-group col-md-4 mb-3">
+						<s:div cssClass="input-group-prepend">
+							<span class="input-group-text">&#x1f512</span>
+						</s:div>
+						<s:textfield theme="simple" type="text" id="inputPassword" cssClass="form-control" placeholder="Contraseña" name="passwordVal" requiredLabel="true" onfocus="true" value="%{#parameters.password}"/>
+					</s:div>
+                                        </s:div>
+                                        <!--Contraseña-->
+					
+					<br>
+					<s:submit  theme="simple" cssClass="btn btn-lg btn-success btn-block" value="Actualizar" />
+				</s:form>
+                                </div>
 				<!-- Contenedores  -->
 				<!-- Footer  -->
 				<footer style="position: fixed; bottom: 0px;">

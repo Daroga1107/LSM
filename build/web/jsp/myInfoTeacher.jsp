@@ -55,39 +55,39 @@
 				<ul class="list-unstyled CTAs">
 					<li>
 						<a href="teacher.jsp" role="button">
-                                                    <i class="material-icons fa fa-home"></i>  Inicio
-                                                </a>
+						<i class="material-icons fa fa-home"></i>  Inicio
+						</a>
 					</li>
 					<li>
 						<a href="myInfoTeacher.jsp" role="button">
-                                                    <i class="material-icons fa fa-user-circle"></i>  Mi cuenta
-                                                </a>
+						<i class="material-icons fa fa-user-circle"></i>  Mi cuenta
+						</a>
 					</li>
 					<li>
-                                            <a href="myGroups.jsp" role="button">
-                                                    <i class="material-icons fa fa-users"></i>  Mis grupos
-                                                </a>
+						<a href="myGroups.jsp" role="button">
+						<i class="material-icons fa fa-users"></i>  Mis alumnos
+						</a>
 					</li>
-                                        <li>
+					<li>
 						<a href="addStudent.jsp" role="button">
-                                                    <i class="material-icons fa fa-user-plus"></i>  Inscribir alumno
-                                                </a>
+						<i class="material-icons fa fa-user-plus"></i>  Inscribir alumno
+						</a>
 					</li>
 					<li>
 						<a href="progress.jsp" role="button">
-                                                    <i class="material-icons fa fa-tasks"></i>  Ver progreso
-                                                </a>
-					</li>					
+						<i class="material-icons fa fa-tasks"></i>  Ver progreso
+						</a>
+					</li>
 					<li>
 						<a href="availableModules.jsp" role="button">
-                                                    <i class="material-icons fa fa-user"></i>  Ver módulos
-                                                </a>
+						<i class="material-icons fa fa-user"></i>  Ver módulos
+						</a>
 					</li>
 					<br>
 					<li>
 						<a href="sessionClosed.jsp" role="button">
-                                                    <i class="material-icons fa fa-power-off"></i>  Cerrar sesión
-                                                </a>
+						<i class="material-icons fa fa-power-off"></i>  Cerrar sesión
+						</a>
 					</li>
 				</ul>
 			</nav>
@@ -109,9 +109,9 @@
 						<s:div cssClass="collapse navbar-collapse" id="navbarSupportedContent">
 							<ul class="nav navbar-nav ml-auto">
 								<li class="nav-item">
-                                                                    <a class="btn nav-link" href="teacher.jsp" role="button"><i class="material-icons fa fa-home"></i>  Inicio</a>
+									<a class="btn nav-link" href="teacher.jsp" role="button"><i class="material-icons fa fa-home"></i>  Inicio</a>
 								</li>
-								<li class="nav-item active">
+								<li class="nav-item">
 									<a class="btn nav-link" href="myInfoTeacher.jsp" role="button"><i class="material-icons fa fa-user-circle"></i>  Mi cuenta</a>
 								</li>
 								<li>
@@ -133,19 +133,17 @@
 				<!-- Contenedores  -->
 				<s:div cssClass="line"></s:div>
 				<div class="form-signin">
-					<s:form action="login" method="post" validate="false">
-						<img class="mb-4" src="../img/LSM.gif" alt="Igualdad" width="72" height="72">
-						<h1 class="h2 mb-3 font-weight-normal">Sistema de Aprendizaje de Lengua de Señas Mexicana</h1>
-						<h2 class="h4 mb-3 font-weight-normal">Iniciar sesión</h2>
+					<s:form action="updateMyInfoTeacher.action">
+						<h2 class="h4 mb-3 font-weight-normal">Mi cuenta</h2>
+                                                <s:hidden theme="simple" type="text" cssClass="form-control" placeholder="Identificador" name="idUser" requiredLabel="true" onfocus="true" value="%{#parameters.idUser}"/>
 						<br>            
-						<s:textfield theme="simple" type="email" id="inputEmail" cssClass="form-control" placeholder="Correo electronico" name="user.email" requiredLabel="true" onfocus="true"/>
-						<s:password theme="simple" cssClass="form-control" id="inputPassword" placeholder="Contraseña" requiredLabel="true" name="user.password" />
-						<s:submit  theme="simple" cssClass="btn btn-lg btn-primary btn-block" value="Iniciar Sesión" />
-						<hr class="mb-4">
-						<p class="mb-0 text-right">
-							<s:a href="./register.jsp">¿Nuevo usuario? Registrate aqui</s:a>
-						</p>
+                                                <s:textfield theme="simple" type="email" id="inputEmail" cssClass="form-control inputField" placeholder="Correo electronico" name="email" requiredLabel="true" onfocus="true" value="%{#parameters.email}" disabled="true"/>
+						<s:textfield theme="simple" cssClass="form-control inputField" id="inputPassword" placeholder="Contraseña" requiredLabel="true" name="password" value="%{#parameters.password}" disabled="true"/>
+                                                <br>
+                                                <s:submit theme="simple" cssClass="btn btn-lg btn-success btn-block" value="Actualizar" />						
 					</s:form>
+                                                <br>
+                                                <s:submit onclick="fieldsEnabled()" id="modifyButton" theme="simple" cssClass="btn btn-lg btn-primary btn-block" value="Modificar información" />
 				</div>
 				<!-- Contenedores  -->
 				<hr class="featurette-divider">
@@ -157,6 +155,7 @@
 			</s:div>
 			<!-- Contenido  -->
 		</s:div>
+                        <script src="../js/sketch.js"></script>   
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<!-- Popper.JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>

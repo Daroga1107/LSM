@@ -20,20 +20,31 @@
             <result name="success">/jsp/admin.jsp</result>
             <result name="input">/jsp/addUser.jsp</result>
         </action>
-        <action name="TeacherRegister" class="dao.RegisterAction">
+        <action name="TeacherRegister" class="dao.RegisterAction" method="execute">
             <result name="success">/jsp/teacher.jsp</result>
             <result name="input">/jsp/addStudent.jsp</result>
         </action>        
         <action name="deleteUser" method="execute" class="dao.DeleteUserAction">
             <result name="success" >/jsp/appUsers.jsp</result>
         </action>
+        <action name="deleteStudent" method="execute" class="dao.DeleteUserAction">
+            <result name="success" >/jsp/myGroups.jsp</result>
+        </action>
         <action name="modifyUser" method="execute" class="dao.ModifyUserAction">
             <result name="success" >/jsp/appUsers.jsp</result>
             <result name="input" >/jsp/modifyUser.jsp</result>
         </action>
+        <action name="modifyStudent" method="execute" class="dao.ModifyUserAction">
+            <result name="success" >/jsp/myGroups.jsp</result>
+            <result name="input" >/jsp/modifyStudent.jsp</result>
+        </action>
         <action name="updateMyInfo" method="execute" class="dao.myInfoAction">
             <result name="success" >/jsp/admin.jsp</result>
             <result name="input" >/jsp/myInfo.jsp</result>
+        </action>
+        <action name="updateMyInfoTeacher" method="execute" class="dao.myInfoAction">
+            <result name="success" >/jsp/teacher.jsp</result>
+            <result name="input" >/jsp/myInfoTeacher.jsp</result>
         </action>
         
     </package>

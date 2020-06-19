@@ -7,7 +7,9 @@ package dao;
 
 import com.opensymphony.xwork2.ActionSupport;
 import dao.HibernateUtil;
+import entity.Group;
 import entity.User;
+import java.util.Set;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
@@ -20,6 +22,8 @@ public class RegisterAction extends ActionSupport {
     private String username, password, password2, role, groupkey;
     private Integer numRole;
     private User user = new User();
+    private Group gp = new Group();
+    private Set<User> set;
     Session hibernateSession;
 
     public String getUsername() {
@@ -93,6 +97,27 @@ public class RegisterAction extends ActionSupport {
 //            System.out.println(""+user.toString());
             hibernateSession.save(user);
             insert.commit();
+            hibernateSession.close();
+            return SUCCESS;
+        }
+        return INPUT;
+    }
+    
+    public String executeStudent() throws Exception{
+        hibernateSession = HibernateUtil.getSessionFactory().openSession();
+        Transaction tr = hibernateSession.beginTransaction();
+        if(password.equals(password2)){
+            user.setEmail(username);
+            user.setPassword(password);
+            gp.setIdGroup(3);
+//            System.out.println("Rol (Int):" + changeRole(role));
+            user.setRole(changeRole(role));
+            set.add(user);
+            gp.setUsers(set);
+//            System.out.println(""+user.toString());            
+            hibernateSession.save(user);
+            hibernateSession.save(gp);
+            tr.commit();
             hibernateSession.close();
             return SUCCESS;
         }
