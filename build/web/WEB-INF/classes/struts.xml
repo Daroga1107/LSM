@@ -31,5 +31,10 @@
             <result name="success" >/jsp/appUsers.jsp</result>
             <result name="input" >/jsp/modifyUser.jsp</result>
         </action>
+        <action name="updateMyInfo" method="execute" class="dao.myInfoAction">
+            <result name="success" >/jsp/admin.jsp</result>
+            <result name="input" >/jsp/myInfo.jsp</result>
+        </action>
+        
     </package>
 </struts>

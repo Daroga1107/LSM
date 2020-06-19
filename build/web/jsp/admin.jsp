@@ -146,7 +146,6 @@
 							<p>Aquí puedes modificar los datos de los usuarios de la aplicación</p>
 							<p>
 								<a class="btn btn-primary" href="validateUser.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -160,7 +159,6 @@
 							<p>Aquí puedes registrar o eliminar usuarios de la aplicación</p>
 							<p>
 								<a class="btn btn-primary" href="addUser.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
 							</p>
 						</s:div>
 						<s:div cssClass="col-lg-4 text-center">
@@ -171,11 +169,15 @@
                                                                 </div>
 							</svg>
 							<h2>Mi cuenta</h2>
-							<p><s:property value="user.email" /></p>
+							<p>Aquí puedes consultar y modificar tu información</p>
 							<p>
-								<a class="btn btn-primary" href="myInfo.jsp" role="button"><i class="material-icons">chevron_right</i></a>
-								<a class="btn btn-secondary" href="#" role="button"><i class="material-icons md-inactive">check</i></a>
-							</p>
+								<a class="btn btn-primary" role="button" href="
+                                                                   <s:url value="myInfo.jsp?">
+                                                                        <s:param name="email"><s:property value="user.email" /></s:param>
+                                                                         <s:param name="password"><s:property value="user.password" /></s:param>
+                                                                         <s:param name="idUser"><s:property value="user.idUser" /></s:param>
+                                                                   </s:url>"><i class="material-icons">chevron_right</i></a>								
+                                                        </p>
 						</s:div>
 					</s:div>
 					<!-- /.row -->

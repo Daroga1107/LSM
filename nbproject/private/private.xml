@@ -3,13 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/madhouse/Documents/lsm/web/css/bootstrap.min.css</file>
-            <file>file:/C:/Users/madhouse/Documents/lsm/web/jsp/niveles/a.jsp</file>
-            <file>file:/C:/Users/madhouse/Documents/lsm/web/jsp/index.jsp</file>
-            <file>file:/C:/Users/madhouse/Documents/lsm/web/js/sketch.js</file>
-            <file>file:/C:/Users/madhouse/Documents/lsm/web/jsp/appUsers.jsp</file>
-            <file>file:/C:/Users/madhouse/Documents/lsm/web/jsp/addUser.jsp</file>
-            <file>file:/C:/Users/madhouse/Documents/lsm/web/css/style2.css</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/validateUser.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/myInfo.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/src/java/dao/ModifyUserAction.java</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/js/sketch.js</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/modifyUser.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/modifyMyInfo.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/src/java/dao/myInfoAction.java</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/appUsers.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/admin.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/index.jsp</file>
+            <file>file:/C:/Users/rpfce/Documents/LSM%20v3.0/web/jsp/niveles/a.jsp</file>
         </group>
     </open-files>
 </project-private>

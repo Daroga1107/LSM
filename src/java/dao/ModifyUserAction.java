@@ -80,8 +80,8 @@ public class ModifyUserAction extends ActionSupport{
         Transaction tr = hibernateSession.beginTransaction();
 //        System.out.println("INFORMACIÓN RECIBIDA:");
 //        System.out.println("Id: "+ idUser);
-//        System.out.println("Email: "+email);
-//        System.out.println("Password 1: "+ password);
+    //        System.out.println("Email: "+email);
+    //        System.out.println("Password 1: "+ password);
 //        System.out.println("Password 2: "+ passwordVal);
 //        System.out.println("Rol: "+role);
         if(password.equals(passwordVal)){

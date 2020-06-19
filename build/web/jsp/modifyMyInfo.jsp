@@ -128,17 +128,14 @@
 				<!-- Contenedores  -->
 				<s:div cssClass="line"></s:div>
 				<div class="form-signin">
-					<s:form action="updateMyInfo.action">
+					<s:form action="modifyMyInfo.jsp" method="post" validate="false">
 						<h2 class="h4 mb-3 font-weight-normal">Mi cuenta</h2>
-                                                <s:hidden theme="simple" type="text" cssClass="form-control" placeholder="Identificador" name="idUser" requiredLabel="true" onfocus="true" value="%{#parameters.idUser}"/>
+                                                <s:property value="user.email" />
 						<br>            
-                                                <s:textfield theme="simple" type="email" id="inputEmail" cssClass="form-control inputField" placeholder="Correo electronico" name="email" requiredLabel="true" onfocus="true" value="%{#parameters.email}" disabled="true"/>
-						<s:textfield theme="simple" cssClass="form-control inputField" id="inputPassword" placeholder="Contraseña" requiredLabel="true" name="password" value="%{#parameters.password}" disabled="true"/>
-                                                <br>
-                                                <s:submit theme="simple" cssClass="btn btn-lg btn-success btn-block" value="Actualizar" />						
+                                                <s:textfield theme="simple" type="email" id="inputEmail" cssClass="form-control" placeholder="Correo electronico" name="user.email" requiredLabel="true" onfocus="true" value="%{#parameters.email}"/>
+						<s:textfield theme="simple" cssClass="form-control" id="inputPassword" placeholder="Contraseña" requiredLabel="true" name="user.password" value="%{#parameters.password}"/>
+						<s:submit id="modifyButton" theme="simple" cssClass="btn btn-lg btn-primary btn-block" value="Modificar" />						
 					</s:form>
-                                                <br>
-                                                <s:submit onclick="fieldsEnabled()" id="modifyButton" theme="simple" cssClass="btn btn-lg btn-primary btn-block" value="Modificar información" />
 				</div>
 				<!-- Contenedores  -->
 				<hr class="featurette-divider">
@@ -150,7 +147,6 @@
 			</s:div>
 			<!-- Contenido  -->
 		</s:div>
-                        <script src="../js/sketch.js"></script>       
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<!-- Popper.JS -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
@@ -158,8 +154,7 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 		<!-- jQuery Custom Scroller CDN -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-		
-                <script type="text/javascript">
+		<script type="text/javascript">
 			$(document).ready(function () {
 			    $("#sidebar").mCustomScrollbar({
 			        theme: "minimal"
@@ -171,10 +166,6 @@
 			        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
 			    });
 			});
-                        
-                        //document.getElementById("modifyButton").addEventListener("click",fieldsEnabled);
-                        
-                        
 		</script>
 	</body>
 </html>
